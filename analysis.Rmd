@@ -1,0 +1,496 @@
+---
+title: "stat-test"
+output: html_notebook
+---
+
+```{r}
+library(ggpubr)
+library(rstatix)
+library(ggh4x)
+library(ggplot2)
+library(tidyr)
+```
+
+
+# ANOVA Logistic Regression
+```{r}
+lr <- read.csv("data/LR_all_features_5fold.csv")
+lr <- lr[!grepl("DI1230XA", lr$setting),]
+lr$preprocessing <- paste(lr$genome, lr$setting, sep = "_")
+anov_LR <- compare_means(auc ~ preprocessing,
+                      data = lr,
+                      method = "anova")
+# auc   0.946  0.95 0.95     ns       Anova 
+```
+
+
+### ANOVA ####
+
+```{r}
+# fragment lengths: globlen_mean
+# ichorCNA: Tumor.Fraction
+# tMAD: tmad_vs_control
+# coverage: correlation_to_healthy
+# liquorice: `Total dip depth`, hemato and saec
+
+file_names <- c("data/data_anova/coverage.csv", 
+                "data/data_anova/liq_hemato.csv",
+                "data/data_anova/liq_saec.csv")
+                
+dataset_list <- list()
+for (file in file_names) {
+  dataset <- read.csv(file, stringsAsFactors = FALSE)
+  dataset_list[[file]] <- dataset
+}
+
+common_column <- c("sampleID", "ref_genome", "settings", "phenotype")
+merged_data <- Reduce(function(x, y) merge(x, y, by = common_column), dataset_list)
+View(merged_data)
+merged_data$preprocessing <- paste(merged_data$ref_genome, merged_data$settings, sep="_")
+
+
+anov_corr <- compare_means(correlation_to_healthy ~ preprocessing,
+                      data = merged_data,
+                      method = "anova")
+# correlation_to_healthy  1.00     1 1        ns       Anova 
+
+anov_saec <- compare_means(dip_depth_saec ~ preprocessing,
+                      data = merged_data,
+                      method = "anova")
+# dip_depth_saec  1.00     1 1        ns       Anova 
+
+anov_hemato <- compare_means(dip_depth_hemato ~ preprocessing,
+                      data = merged_data,
+                      method = "anova")
+# dip_depth_hemato  1.00     1 1        ns       Anova 
+
+
+file_names <- c("data/data_anova/fragment_lengths.csv", 
+                "data/data_anova/ichorCNA.csv",
+                "data/data_anova/tMAD.csv")
+
+dataset_list <- list()
+for (file in file_names) {
+  dataset <- read.csv(file, stringsAsFactors = FALSE)
+  dataset_list[[file]] <- dataset
+}
+
+common_column <- c("sampleID", "ref_genome", "settings", "phenotype")
+merged_data <- Reduce(function(x, y) merge(x, y, by = common_column), dataset_list)
+View(merged_data)
+merged_data$preprocessing <- paste(merged_data$ref_genome, merged_data$settings, sep="_")
+
+
+anov_fragment_lengths <- compare_means(globlen_mean ~ preprocessing,
+                      data = merged_data,
+                      method = "anova")
+# globlen_mean     1     1 1        ns       Anova 
+
+anov_ichorCNA <- compare_means(Tumor.Fraction ~ preprocessing,
+                      data = merged_data,
+                      method = "anova")
+# Tumor.Fraction     1     1 1        ns       Anova 
+
+anov_tMAD <- compare_means(tmad_vs_control ~ preprocessing,
+                      data = merged_data,
+                      method = "anova")
+# tmad_vs_control     1     1 1        ns       Anova 
+
+
+```
+
+##### T test ####
+```{r}
+#hg19
+fragment_lengths <- read.csv("data/fragment_lengths.csv")
+ichorCNA <- read.csv("data/ichorCNA.csv")
+tMAD <- read.csv("data/tMAD.csv")
+coverage <- read.csv("data/coverage.csv")
+liq_hemato <- read.csv("data/liq_hemato_hg19.csv")
+liq_saec <- read.csv("data/liq_saec_hg19.csv")
+
+#hg38
+fragment_lengths <- read.csv("data/fragment_lengths_hg38.csv")
+ichorCNA <- read.csv("data/ichorCNA_hg38.csv")
+tMAD <- read.csv("data/tMAD_hg38.csv")
+coverage <-  read.csv("data/coverage_hg38.csv")
+liq_hemato <- read.csv("data/liq_hemato.csv")
+liq_saec <- read.csv("data/liq_saec.csv")
+
+
+stat.test <- tMAD %>%
+  group_by(ref_genome, settings) %>%
+  t_test(tmad_vs_control ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+stat.test$statistic <- abs(stat.test$statistic)
+View(stat.test)
+
+# results for all features merged are in all_features_hg38_t-test.csv and all_features_hg19_t-test.csv files
+```
+
+
+
+```{r}
+file_names <- c("data/data_anova/coverage.csv", 
+                "data/data_anova/liq_hemato.csv",
+                "data/data_anova/liq_saec.csv",
+                "data/data_anova/fragment_lengths.csv", 
+                "data/data_anova/ichorCNA.csv",
+                "data/data_anova/tMAD.csv")
+dataset_list <- list()
+for (file in file_names) {
+  dataset <- read.csv(file, stringsAsFactors = FALSE)
+  dataset_list[[file]] <- dataset
+}
+
+common_column <- c("sampleID", "ref_genome", "settings", "phenotype")
+merged_data <- Reduce(function(x, y) merge(x, y, by = common_column), dataset_list)
+View(merged_data)
+
+```
+
+
+```{r}
+merged_data <- merged_data[!grepl("DI1230XA", merged_data$setting),]
+merged_data <- separate(merged_data, col = ref_genome, into = c("trim", "build"), sep = "mem")
+merged_data$gc[grepl("False", merged_data$setting)] <- FALSE
+merged_data$gc[grepl("True", merged_data$setting)] <- TRUE
+merged_data$filter[grepl("40", merged_data$setting)] <- "lenient"
+merged_data$filter[grepl("DI26830XA", merged_data$setting)] <- "strict"
+merged_data$preprocessing <- paste(merged_data$trim, merged_data$build, merged_data$settings,  sep="_")
+
+ggplot(merged_data, aes(x = phenotype, y = globlen_mean, fill = phenotype)) +
+       geom_boxplot() +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#7FC97F", "#BEAED4")) +
+  facet_grid(.~trim) + theme_classic()
+
+ggplot(merged_data, aes(x = phenotype, y = globlen_mean, fill = phenotype)) +
+       geom_violin() +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#7FC97F", "#BEAED4")) +
+  facet_grid(.~trim) + theme_classic()
+```
+```{r}
+long_df <- gather(merged_data, key = "variable", value = "value", c(globlen_mean, Tumor.Fraction, tmad_vs_control, dip_depth_hemato, dip_depth_saec, correlation_to_healthy))
+
+mapping_dict <- setNames(c("length", "ichorCNA", "tMAD", "hemato", "lung", "coverage"), c("globlen_mean", "Tumor.Fraction", "tmad_vs_control", "dip_depth_hemato", "dip_depth_saec", "correlation_to_healthy"))
+
+# Use match to substitute values
+long_df$variable <- mapping_dict[as.character(long_df$variable)]
+long_df$preprocessing <- paste(long_df$trim, long_df$build, long_df$settings,  sep="_")
+```
+
+```{r}
+ggplot(long_df, aes(x = phenotype, y = value, fill = phenotype)) +
+       geom_violin() +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#7FC97F", "#BEAED4")) +
+  facet_grid(variable~trim, scales = "free_y",) + theme_classic()
+```
+
+```{r}
+ggplot(long_df, aes(x = phenotype, y = value, fill = phenotype)) +
+       geom_violin() +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#7FC97F", "#BEAED4")) +
+  facet_grid(variable~gc, scales = "free_y",) + theme_classic()
+```
+
+```{r}
+ggplot(long_df, aes(x = phenotype, y = value, fill = phenotype)) +
+       geom_violin() +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#7FC97F", "#BEAED4")) +
+  facet_grid(variable~build, scales = "free_y",) + theme_classic()
+```
+```{r}
+ggplot(long_df, aes(x = phenotype, y = value, fill = phenotype)) +
+       geom_violin() +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#7FC97F", "#BEAED4")) +
+  facet_grid(variable~filter, scales = "free_y",) + theme_classic()
+```
+```{r}
+ichor_stat.test <- merged_data %>%
+  group_by(trim, build, gc, filter) %>%
+  t_test(Tumor.Fraction ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+ichor_stat.test$statistic <- abs(ichor_stat.test$statistic)
+
+ichor_ttest <- ichor_stat.test %>%
+  t_test(statistic ~ trim) %>%
+  add_significance()
+ichor_ttest$.y. <- "ichor"
+#ichor_ttest$statistic <- abs(ichor_ttest$statistic)
+
+tmad_stat.test <- merged_data %>%
+  group_by(trim, build, gc, filter) %>%
+  t_test(tmad_vs_control ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+tmad_stat.test$statistic <- abs(tmad_stat.test$statistic)
+
+tmad_ttest <- tmad_stat.test %>%
+  t_test(statistic ~ trim) %>%
+  add_significance()
+tmad_ttest$.y. <- "tmad"
+#tmad_ttest$statistic <- abs(tmad_ttest$statistic)
+
+length_stat.test <- merged_data %>%
+  group_by(trim, build, gc, filter) %>%
+  t_test(globlen_mean ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+length_stat.test$statistic <- abs(length_stat.test$statistic)
+
+length_ttest <- length_stat.test %>%
+  t_test(statistic ~ trim) %>%
+  add_significance()
+length_ttest$.y. <- "length"
+#length_ttest$statistic <- abs(length_ttest$statistic)
+
+cov_stat.test <- merged_data %>%
+  group_by(trim, build, gc, filter) %>%
+  t_test(correlation_to_healthy ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+cov_stat.test$statistic <- abs(cov_stat.test$statistic)
+
+cov_ttest <- cov_stat.test %>%
+  t_test(statistic ~ trim) %>%
+  add_significance()
+cov_ttest$.y. <- "coverage"
+#cov_ttest$statistic <- abs(cov_ttest$statistic)
+
+lung_stat.test <- merged_data %>%
+  group_by(trim, build, gc, filter) %>%
+  t_test(dip_depth_saec ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+lung_stat.test$statistic <- abs(lung_stat.test$statistic)
+
+lung_ttest <- lung_stat.test %>%
+  t_test(statistic ~ trim) %>%
+  add_significance()
+lung_ttest$.y. <- "lung"
+#lung_ttest$statistic <- abs(lung_ttest$statistic)
+
+hemato_stat.test <- merged_data %>%
+  group_by(trim, build, gc, filter) %>%
+  t_test(dip_depth_hemato ~ phenotype) %>%
+  adjust_pvalue(method = "BH") %>%
+  add_significance()
+hemato_stat.test$statistic <- abs(hemato_stat.test$statistic)
+
+hemato_ttest <- hemato_stat.test %>%
+  t_test(statistic ~ trim) %>%
+  add_significance()
+hemato_ttest$.y. <- "hemato"
+#hemato_ttest$statistic <- abs(hemato_ttest$statistic)
+
+trim_ttest <- rbind(lung_ttest, hemato_ttest, cov_ttest, length_ttest, tmad_ttest, ichor_ttest)
+```
+
+```{r}
+ichor_ttest <- ichor_stat.test %>%
+  t_test(statistic ~ gc) %>%
+  add_significance()
+ichor_ttest$.y. <- "ichor"
+#ichor_ttest$statistic <- abs(ichor_ttest$statistic)
+
+tmad_ttest <- tmad_stat.test %>%
+  t_test(statistic ~ gc) %>%
+  add_significance()
+tmad_ttest$.y. <- "tmad"
+#tmad_ttest$statistic <- abs(tmad_ttest$statistic)
+
+length_ttest <- length_stat.test %>%
+  t_test(statistic ~ gc) %>%
+  add_significance()
+length_ttest$.y. <- "length"
+#length_ttest$statistic <- abs(length_ttest$statistic)
+
+cov_ttest <- cov_stat.test %>%
+  t_test(statistic ~ gc) %>%
+  add_significance()
+cov_ttest$.y. <- "coverage"
+#cov_ttest$statistic <- abs(cov_ttest$statistic)
+
+lung_ttest <- lung_stat.test %>%
+  t_test(statistic ~ gc) %>%
+  add_significance()
+lung_ttest$.y. <- "lung"
+#lung_ttest$statistic <- abs(lung_ttest$statistic)
+
+hemato_ttest <- hemato_stat.test %>%
+  t_test(statistic ~ gc) %>%
+  add_significance()
+hemato_ttest$.y. <- "hemato"
+#hemato_ttest$statistic <- abs(hemato_ttest$statistic)
+
+gc_ttest <- rbind(lung_ttest, hemato_ttest, cov_ttest, length_ttest, tmad_ttest, ichor_ttest)
+```
+
+```{r}
+ichor_ttest <- ichor_stat.test %>%
+  t_test(statistic ~ filter) %>%
+  add_significance()
+ichor_ttest$.y. <- "ichor"
+#ichor_ttest$statistic <- abs(ichor_ttest$statistic)
+
+tmad_ttest <- tmad_stat.test %>%
+  t_test(statistic ~ filter) %>%
+  add_significance()
+tmad_ttest$.y. <- "tmad"
+#tmad_ttest$statistic <- abs(tmad_ttest$statistic)
+
+length_ttest <- length_stat.test %>%
+  t_test(statistic ~ filter) %>%
+  add_significance()
+length_ttest$.y. <- "length"
+#length_ttest$statistic <- abs(length_ttest$statistic)
+
+cov_ttest <- cov_stat.test %>%
+  t_test(statistic ~ filter) %>%
+  add_significance()
+cov_ttest$.y. <- "coverage"
+#cov_ttest$statistic <- abs(cov_ttest$statistic)
+
+lung_ttest <- lung_stat.test %>%
+  t_test(statistic ~ filter) %>%
+  add_significance()
+lung_ttest$.y. <- "lung"
+#lung_ttest$statistic <- abs(lung_ttest$statistic)
+
+hemato_ttest <- hemato_stat.test %>%
+  t_test(statistic ~ filter) %>%
+  add_significance()
+hemato_ttest$.y. <- "hemato"
+#hemato_ttest$statistic <- abs(hemato_ttest$statistic)
+
+filter_ttest <- rbind(lung_ttest, hemato_ttest, cov_ttest, length_ttest, tmad_ttest, ichor_ttest)
+```
+
+```{r}
+ichor_ttest <- ichor_stat.test %>%
+  t_test(statistic ~ build) %>%
+  add_significance()
+ichor_ttest$.y. <- "ichor"
+#ichor_ttest$statistic <- abs(ichor_ttest$statistic)
+
+tmad_ttest <- tmad_stat.test %>%
+  t_test(statistic ~ build) %>%
+  add_significance()
+tmad_ttest$.y. <- "tmad"
+#tmad_ttest$statistic <- abs(tmad_ttest$statistic)
+
+length_ttest <- length_stat.test %>%
+  t_test(statistic ~ build) %>%
+  add_significance()
+length_ttest$.y. <- "length"
+#length_ttest$statistic <- abs(length_ttest$statistic)
+
+cov_ttest <- cov_stat.test %>%
+  t_test(statistic ~ build) %>%
+  add_significance()
+cov_ttest$.y. <- "coverage"
+#cov_ttest$statistic <- abs(cov_ttest$statistic)
+
+lung_ttest <- lung_stat.test %>%
+  t_test(statistic ~ build) %>%
+  add_significance()
+lung_ttest$.y. <- "lung"
+#lung_ttest$statistic <- abs(lung_ttest$statistic)
+
+hemato_ttest <- hemato_stat.test %>%
+  t_test(statistic ~ build) %>%
+  add_significance()
+hemato_ttest$.y. <- "hemato"
+#hemato_ttest$statistic <- abs(hemato_ttest$statistic)
+
+build_ttest <- rbind(lung_ttest, hemato_ttest, cov_ttest, length_ttest, tmad_ttest, ichor_ttest)
+```
+
+```{r}
+alltests <- rbind(trim_ttest[, 1:8], filter_ttest[, 1:8], gc_ttest[, 1:8], build_ttest[, 1:8]) %>%
+  adjust_pvalue(method = "holm") %>%
+  add_significance()
+View(alltests)
+```
+
+```{r}
+all_stat_test <- rbind(ichor_stat.test, tmad_stat.test, length_stat.test, hemato_stat.test, lung_stat.test, cov_stat.test)
+
+mapping_dict <- setNames(c("length", "ichorCNA", "tMAD", "hemato", "lung", "coverage"), c("globlen_mean", "Tumor.Fraction", "tmad_vs_control", "dip_depth_hemato", "dip_depth_saec", "correlation_to_healthy"))
+
+# Use match to substitute values
+all_stat_test$`.y.` <- mapping_dict[as.character(all_stat_test$`.y.`)]
+
+all_stat_test$`.y.` <- factor(all_stat_test$`.y.`, levels=c("ichorCNA", "tMAD",
+                                                            "length", "hemato",
+                                                            "lung", "coverage"))
+
+mapping_dict <- setNames(c("no", "yes"), c("0", "30"))
+
+# Use match to substitute values
+all_stat_test$trim <- mapping_dict[as.character(all_stat_test$trim)]
+
+
+
+```
+
+```{r}
+ggplot(all_stat_test, aes(x = trim, y = statistic, fill = `.y.`, alpha = trim)) +
+       geom_violin() +
+       scale_alpha_discrete(range = c(0.2, 0.8)) +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#1B9E77", "#66A61E", "#7570B3", "#D95F02","#E7298A","#E6AB02")) +
+  facet_grid(`.y.`~., scales = "free_y",) +
+  theme_classic()
+```
+```{r}
+ggplot(all_stat_test, aes(x = trim, y = statistic, fill = `.y.`, alpha = trim)) +
+       geom_violin() +
+       scale_alpha_discrete(range = c(0.2, 0.8)) +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#1B9E77", "#66A61E", "#7570B3", "#D95F02","#E7298A","#E6AB02")) +
+  facet_wrap(.~`.y.`, scales = "free",) +
+  theme_classic()
+```
+
+```{r}
+ggplot(all_stat_test, aes(x = gc, y = statistic, fill = `.y.`, alpha = gc)) +
+       geom_violin() +
+       scale_alpha_discrete(range = c(0.2, 0.8)) +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#1B9E77", "#66A61E", "#7570B3", "#D95F02","#E7298A","#E6AB02")) +
+  facet_wrap(.~`.y.`, scales = "free",) +
+  theme_classic()
+```
+
+```{r}
+ggplot(all_stat_test, aes(x = filter, y = statistic, fill = `.y.`, alpha = filter)) +
+       geom_violin() +
+       scale_alpha_discrete(range = c(0.2, 0.8)) +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#1B9E77", "#66A61E", "#7570B3", "#D95F02","#E7298A","#E6AB02")) +
+  facet_wrap(.~`.y.`, scales = "free",) +
+  theme_classic()
+```
+
+```{r}
+ggplot(all_stat_test, aes(x = build, y = statistic, fill = `.y.`, alpha = build)) +
+       geom_violin() +
+       scale_alpha_discrete(range = c(0.1, 0.9)) +
+       geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = c("#1B9E77", "#66A61E", "#7570B3", "#D95F02","#E7298A","#E6AB02")) +
+  facet_wrap(.~`.y.`, scales = "free",) +
+  theme_classic()
+```
+
+
+  
+  

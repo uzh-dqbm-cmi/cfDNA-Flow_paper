@@ -1,0 +1,145 @@
+ref_genome,settings,.y.,group1,group2,n1,n2,statistic,df,p,p.adj,p.adj.signif,feature
+0memhg38,False40,globlen_mean,healthy_control,lung_cancer,20,20,2.993912198956288,24.921017049910027,0.00614,0.0063,**,Fragment lengths
+0memhg38,FalseDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,3.014176216491091,24.93466082028235,0.00585,0.0063,**,Fragment lengths
+0memhg38,FalseDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,3.009814356211153,24.951222099540754,0.00591,0.0063,**,Fragment lengths
+0memhg38,True40,globlen_mean,healthy_control,lung_cancer,20,20,2.9829234988283346,24.963695934277684,0.0063,0.0063,**,Fragment lengths
+0memhg38,TrueDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,2.9992699046324933,24.961470497936368,0.00605,0.0063,**,Fragment lengths
+0memhg38,TrueDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,2.9954191365019716,24.989023495020827,0.00611,0.0063,**,Fragment lengths
+0memhg38noalt,False40,globlen_mean,healthy_control,lung_cancer,20,20,2.9986118043645824,24.91685887967096,0.00607,0.0063,**,Fragment lengths
+0memhg38noalt,FalseDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,3.0157766145958718,24.943552197965865,0.00582,0.0063,**,Fragment lengths
+0memhg38noalt,FalseDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,3.011324195068409,24.95968945236149,0.00588,0.0063,**,Fragment lengths
+0memhg38noalt,True40,globlen_mean,healthy_control,lung_cancer,20,20,2.9912824243623657,24.941382261548735,0.00618,0.0063,**,Fragment lengths
+0memhg38noalt,TrueDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,3.004259035465741,24.958076627546777,0.00598,0.0063,**,Fragment lengths
+0memhg38noalt,TrueDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,2.9993277310439983,24.979708806263265,0.00605,0.0063,**,Fragment lengths
+30memhg38,False40,globlen_mean,healthy_control,lung_cancer,20,20,2.9968631685194564,24.94778292315005,0.00609,0.0063,**,Fragment lengths
+30memhg38,FalseDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,3.0120686075166456,24.934707227822372,0.00588,0.0063,**,Fragment lengths
+30memhg38,FalseDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,3.0077499892128965,24.951166624089808,0.00593,0.0063,**,Fragment lengths
+30memhg38,True40,globlen_mean,healthy_control,lung_cancer,20,20,2.9826794759922812,24.99011110391889,0.0063,0.0063,**,Fragment lengths
+30memhg38,TrueDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,2.9954920328277717,24.9681321669103,0.00611,0.0063,**,Fragment lengths
+30memhg38,TrueDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,2.993059240148125,24.98874422350523,0.00614,0.0063,**,Fragment lengths
+30memhg38noalt,False40,globlen_mean,healthy_control,lung_cancer,20,20,3.0017694260643717,24.945136583366523,0.00602,0.0063,**,Fragment lengths
+30memhg38noalt,FalseDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,3.0137519473199337,24.943815258828362,0.00585,0.0063,**,Fragment lengths
+30memhg38noalt,FalseDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,3.009345044207655,24.959794319294662,0.00591,0.0063,**,Fragment lengths
+30memhg38noalt,True40,globlen_mean,healthy_control,lung_cancer,20,20,2.9917188481782735,24.97042449284091,0.00616,0.0063,**,Fragment lengths
+30memhg38noalt,TrueDI1230XA,globlen_mean,healthy_control,lung_cancer,20,20,3.003223418267834,24.960734320547903,0.006,0.0063,**,Fragment lengths
+30memhg38noalt,TrueDI26830XA,globlen_mean,healthy_control,lung_cancer,20,20,2.9965246667400027,24.972879841656873,0.00609,0.0063,**,Fragment lengths
+0memhg38,False40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.444386279245807,19.685247236647953,0.0241,0.0315,*,Norm coverage
+0memhg38,FalseDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.3191207733800256,19.619592818416724,0.0313,0.0315,*,Norm coverage
+0memhg38,FalseDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.3187483637272615,19.621015299548713,0.0313,0.0315,*,Norm coverage
+0memhg38,True40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.392345905989866,19.621553777175457,0.0269,0.0315,*,Norm coverage
+0memhg38,TrueDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.418051325178163,19.11019812453594,0.0258,0.0315,*,Norm coverage
+0memhg38,TrueDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.4142693932837473,19.10994615018553,0.026,0.0315,*,Norm coverage
+0memhg38noalt,False40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.416298174749345,19.68591173298705,0.0255,0.0315,*,Norm coverage
+0memhg38noalt,FalseDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.464885174848942,19.829746991644534,0.023,0.0315,*,Norm coverage
+0memhg38noalt,FalseDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.4642355149585295,19.83175373161687,0.023,0.0315,*,Norm coverage
+0memhg38noalt,True40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.3505943259062896,19.598970645675706,0.0293,0.0315,*,Norm coverage
+0memhg38noalt,TrueDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.574664580082824,19.15006327507623,0.0185,0.0315,*,Norm coverage
+0memhg38noalt,TrueDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.5699073501076644,19.1482121142356,0.0187,0.0315,*,Norm coverage
+30memhg38,False40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.4409970181397425,19.678240594817364,0.0242,0.0315,*,Norm coverage
+30memhg38,FalseDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.31624985710651,19.61615800075314,0.0315,0.0315,*,Norm coverage
+30memhg38,FalseDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.315863669139028,19.617517644815962,0.0315,0.0315,*,Norm coverage
+30memhg38,True40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.3988493687960526,19.640967621984977,0.0265,0.0315,*,Norm coverage
+30memhg38,TrueDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.4081386122517845,19.112497442782313,0.0263,0.0315,*,Norm coverage
+30memhg38,TrueDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.404739719051916,19.11328551559753,0.0265,0.0315,*,Norm coverage
+30memhg38noalt,False40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.4113210706423422,19.683177227164382,0.0258,0.0315,*,Norm coverage
+30memhg38noalt,FalseDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.4614099092930664,19.823538336765747,0.0231,0.0315,*,Norm coverage
+30memhg38noalt,FalseDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.460767364966345,19.82542656829753,0.0232,0.0315,*,Norm coverage
+30memhg38noalt,True40,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.352534751901163,19.59910719253256,0.0292,0.0315,*,Norm coverage
+30memhg38noalt,TrueDI1230XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.563216411780154,19.15181573837606,0.0189,0.0315,*,Norm coverage
+30memhg38noalt,TrueDI26830XA,correlation_to_healthy,healthy_control,lung_cancer,12,20,2.561529727237074,19.153875608969287,0.019,0.0315,*,Norm coverage
+0memhg38,False40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.207313018239053,19.02631180126511,0.00463,0.00544,**,ichorCNA
+0memhg38,FalseDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.266043617337181,19.030066203042395,0.00406,0.00544,**,ichorCNA
+0memhg38,FalseDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.2409907231897326,19.027887877616617,0.00429,0.00544,**,ichorCNA
+0memhg38,True40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1875539672198645,19.021338262257743,0.00484,0.00544,**,ichorCNA
+0memhg38,TrueDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.25679432982654,19.027805258237134,0.00414,0.00544,**,ichorCNA
+0memhg38,TrueDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.232200107057557,19.04168866368832,0.00438,0.00544,**,ichorCNA
+0memhg38noalt,False40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1781322016983995,19.025117076717212,0.00494,0.00544,**,ichorCNA
+0memhg38noalt,FalseDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.142489373041451,19.026386945976935,0.00536,0.00544,**,ichorCNA
+0memhg38noalt,FalseDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1490880329360613,19.028521735951564,0.00528,0.00544,**,ichorCNA
+0memhg38noalt,True40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1693022936452997,19.02209390422681,0.00504,0.00544,**,ichorCNA
+0memhg38noalt,TrueDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.135359379150067,19.03092582590773,0.00544,0.00544,**,ichorCNA
+0memhg38noalt,TrueDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1385628563683587,19.02721229343787,0.0054,0.00544,**,ichorCNA
+30memhg38,False40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.2429630025817064,19.02648931536262,0.00428,0.00544,**,ichorCNA
+30memhg38,FalseDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.238753213138229,19.031328244780287,0.00431,0.00544,**,ichorCNA
+30memhg38,FalseDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.2440916061684426,19.03057336335321,0.00426,0.00544,**,ichorCNA
+30memhg38,True40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.2021394799820264,19.020822299828883,0.00469,0.00544,**,ichorCNA
+30memhg38,TrueDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.2147217395350642,19.02540049988258,0.00456,0.00544,**,ichorCNA
+30memhg38,TrueDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.2510462747450584,19.023422550698456,0.0042,0.00544,**,ichorCNA
+30memhg38noalt,False40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.167676864220381,19.02498055069924,0.00506,0.00544,**,ichorCNA
+30memhg38noalt,FalseDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.149672083820936,19.023803494400756,0.00527,0.00544,**,ichorCNA
+30memhg38noalt,FalseDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1552484420496896,19.02365000806181,0.00521,0.00544,**,ichorCNA
+30memhg38noalt,True40,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.175034853542998,19.02318761038174,0.00498,0.00544,**,ichorCNA
+30memhg38noalt,TrueDI1230XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.1635979087410115,19.025281610445855,0.00511,0.00544,**,ichorCNA
+30memhg38noalt,TrueDI26830XA,Tumor.Fraction,healthy_control,lung_cancer,20,20,3.160656858985533,19.028895737282244,0.00514,0.00544,**,ichorCNA
+0memhg38,False40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.8806021881483526,19.236769989781642,9.87e-4,0.0032727272727272726,**,tMAD
+0memhg38,FalseDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.2933771125314952,19.213725850779166,0.00378,0.004123636363636363,**,tMAD
+0memhg38,FalseDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.32029568680193,19.217948440094023,0.00355,0.004123636363636363,**,tMAD
+0memhg38,True40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.937266934283337,19.19342113393492,8.7e-4,0.0032727272727272726,**,tMAD
+0memhg38,TrueDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.491432652821277,19.392248919786493,0.00238,0.004123636363636363,**,tMAD
+0memhg38,TrueDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.3034872487010287,19.395639957158913,0.00366,0.004123636363636363,**,tMAD
+0memhg38noalt,False40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.736578038868293,19.143560798284497,0.00138,0.0032727272727272726,**,tMAD
+0memhg38noalt,FalseDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.296988761789987,19.117972013503575,0.00377,0.004123636363636363,**,tMAD
+0memhg38noalt,FalseDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.4070956890822077,19.114689106380123,0.00294,0.004123636363636363,**,tMAD
+0memhg38noalt,True40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.840799225947205,19.238942821933033,0.00108,0.0032727272727272726,**,tMAD
+0memhg38noalt,TrueDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.703939482257613,19.24311966867852,0.00148,0.0032727272727272726,**,tMAD
+0memhg38noalt,TrueDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.7364421575429323,19.308506262347553,0.00137,0.0032727272727272726,**,tMAD
+30memhg38,False40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.9246768132904055,19.248141279797288,8.91e-4,0.0032727272727272726,**,tMAD
+30memhg38,FalseDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.331277040778104,19.20841851979039,0.00347,0.004123636363636363,**,tMAD
+30memhg38,FalseDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.2053457019021816,19.19990887786029,0.00461,0.00461,**,tMAD
+30memhg38,True40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.8149720115440475,19.327631660253676,0.00114,0.0032727272727272726,**,tMAD
+30memhg38,TrueDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.410384519362351,19.693955382583862,0.00282,0.004123636363636363,**,tMAD
+30memhg38,TrueDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.343220200959206,19.237913527520217,0.00337,0.004123636363636363,**,tMAD
+30memhg38noalt,False40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.75811082443034,19.18538855582761,0.00131,0.0032727272727272726,**,tMAD
+30memhg38noalt,FalseDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.6632696228793904,19.140935318962462,0.00164,0.00328,**,tMAD
+30memhg38noalt,FalseDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.2526818227725713,19.099404717962607,0.00417,0.004351304347826087,**,tMAD
+30memhg38noalt,True40,tmad_vs_control,healthy_control,lung_cancer,20,20,3.7466938391316735,19.219235043656653,0.00134,0.0032727272727272726,**,tMAD
+30memhg38noalt,TrueDI1230XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.7019665468424963,19.163944405552513,0.0015,0.0032727272727272726,**,tMAD
+30memhg38noalt,TrueDI26830XA,tmad_vs_control,healthy_control,lung_cancer,20,20,3.4681591567236265,19.188829064807784,0.00255,0.004123636363636363,**,tMAD
+0memhg38,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.7819087918634764,24.505626564726736,0.0872,0.09099130434782608,ns,LIQ hemato
+0memhg38,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8791510865427077,24.671045953805045,0.0721,0.08978181818181817,ns,LIQ hemato
+0memhg38,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8702767999123044,24.513795153998284,0.0734,0.08978181818181817,ns,LIQ hemato
+0memhg38,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.745897935652641,24.48018975406633,0.0934,0.0934,ns,LIQ hemato
+0memhg38,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8532077268654839,24.52765301231258,0.0759,0.08978181818181817,ns,LIQ hemato
+0memhg38,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.902989784052162,23.982213993472197,0.0691,0.08978181818181817,ns,LIQ hemato
+0memhg38noalt,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8944619661036466,24.749174892548886,0.0699,0.08978181818181817,ns,LIQ hemato
+0memhg38noalt,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.969173898662803,24.93214756257318,0.0601,0.08978181818181817,ns,LIQ hemato
+0memhg38noalt,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.9737023352771952,24.689838551442783,0.0597,0.08978181818181817,ns,LIQ hemato
+0memhg38noalt,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8110894691660402,24.814770363320726,0.0823,0.08978181818181817,ns,LIQ hemato
+0memhg38noalt,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.9578151677014402,24.826466327501898,0.0616,0.08978181818181817,ns,LIQ hemato
+0memhg38noalt,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,2.0048117591144665,24.32839694620634,0.0562,0.08978181818181817,ns,LIQ hemato
+30memhg38,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8944619661036466,24.749174892548886,0.0699,0.08978181818181817,ns,LIQ hemato
+30memhg38,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.969173898662803,24.93214756257318,0.0601,0.08978181818181817,ns,LIQ hemato
+30memhg38,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.9737023352771952,24.689838551442783,0.0597,0.08978181818181817,ns,LIQ hemato
+30memhg38,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8110894691660402,24.814770363320726,0.0823,0.08978181818181817,ns,LIQ hemato
+30memhg38,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.9578151677014402,24.826466327501898,0.0616,0.08978181818181817,ns,LIQ hemato
+30memhg38,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,2.0048117591144665,24.32839694620634,0.0562,0.08978181818181817,ns,LIQ hemato
+30memhg38noalt,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8944619661036466,24.749174892548886,0.0699,0.08978181818181817,ns,LIQ hemato
+30memhg38noalt,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.969173898662803,24.93214756257318,0.0601,0.08978181818181817,ns,LIQ hemato
+30memhg38noalt,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.9737023352771952,24.689838551442783,0.0597,0.08978181818181817,ns,LIQ hemato
+30memhg38noalt,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,1.8110894691660402,24.814770363320726,0.0823,0.08978181818181817,ns,LIQ hemato
+30memhg38noalt,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,1.9578151677014402,24.826466327501898,0.0616,0.08978181818181817,ns,LIQ hemato
+30memhg38noalt,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,2.0048117591144665,24.32839694620634,0.0562,0.08978181818181817,ns,LIQ hemato
+0memhg38,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.389205281968434,29.90621449355924,1.31e-4,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.579318489689375,29.298015618296425,7.99e-5,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.623624881860028,29.51546336793576,6.96e-5,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.4084387142320836,29.74628344244088,1.25e-4,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.751545610606669,29.540454121716955,4.86e-5,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.586674183885327,29.739764324038457,7.6e-5,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38noalt,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.16030028575057,29.779344836722572,2.48e-4,2.834285714285714e-4,***,LIQ SAEC
+0memhg38noalt,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.380121302735807,29.21107396718873,1.4e-4,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38noalt,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.284897550080393,29.651100723021585,1.77e-4,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38noalt,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.012923231985381,29.362180306961832,3.8e-4,3.8e-4,***,LIQ SAEC
+0memhg38noalt,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.2840714894137415,29.321629671348333,1.81e-4,2.4133333333333334e-4,***,LIQ SAEC
+0memhg38noalt,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.391572129878732,29.86545016965691,1.3e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.16030028575057,29.779344836722572,2.48e-4,2.834285714285714e-4,***,LIQ SAEC
+30memhg38,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.380121302735807,29.21107396718873,1.4e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.284897550080393,29.651100723021585,1.77e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.012923231985381,29.362180306961832,3.8e-4,3.8e-4,***,LIQ SAEC
+30memhg38,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.2840714894137415,29.321629671348333,1.81e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.391572129878732,29.86545016965691,1.3e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38noalt,False40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.16030028575057,29.779344836722572,2.48e-4,2.834285714285714e-4,***,LIQ SAEC
+30memhg38noalt,FalseDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.380121302735807,29.21107396718873,1.4e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38noalt,FalseDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.284897550080393,29.651100723021585,1.77e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38noalt,True40,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.012923231985381,29.362180306961832,3.8e-4,3.8e-4,***,LIQ SAEC
+30memhg38noalt,TrueDI1230XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.2840714894137415,29.321629671348333,1.81e-4,2.4133333333333334e-4,***,LIQ SAEC
+30memhg38noalt,TrueDI26830XA,Total.dip.depth,healthy_control,lung_cancer,12,20,-4.391572129878732,29.86545016965691,1.3e-4,2.4133333333333334e-4,***,LIQ SAEC
