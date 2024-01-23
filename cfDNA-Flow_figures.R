@@ -11,8 +11,8 @@ library(pROC)
 library(rstatix)
 
 ###### Figure 2A ######
-output_fig2a <- "../results/Fig2A.pdf"
-fig2a_df <- read_csv("../data/fig2a_df.csv")
+output_fig2a <- "results/Fig2A.pdf"
+fig2a_df <- read_csv("data/fig2a_df.csv")
 pdf(file =  output_fig2a,
     width = 7,
     height = 7)
@@ -28,15 +28,15 @@ ggplot(fig2a_df,
 dev.off()
 
 ###### Figure 2B ######
-output_fig2b <- "../results/Fig2B.pdf"
+output_fig2b <- "results/Fig2B.pdf"
 
 file_paths <- c(
-  "../data/fragment_lengths.csv",
-  "../data/ichorCNA.csv",
-  "../data/tMAD.csv",
-  "../data/normalized_coverage.csv",
-  "../data/liquorice_hemato.csv",
-  "../data/liquorice_lung.csv")
+  "data/fragment_lengths.csv",
+  "data/ichorCNA.csv",
+  "data/tMAD.csv",
+  "data/normalized_coverage.csv",
+  "data/liquorice_hemato.csv",
+  "data/liquorice_lung.csv")
 
 process_csv <- function(file_path, type) {
   data <- read_csv(file_path)
@@ -89,15 +89,15 @@ dev.off()
 
 
 ##### Figure 2C ######
-output_directory <- "../results/"
+output_directory <- "results/"
 
 file_paths <- c(
-  "../data/fragment_lengths.csv",
-  "../data/ichorCNA.csv",
-  "../data/tMAD.csv",
-  "../data/normalized_coverage.csv",
-  "../data/liquorice_hemato.csv",
-  "../data/liquorice_lung.csv"
+  "data/fragment_lengths.csv",
+  "data/ichorCNA.csv",
+  "data/tMAD.csv",
+  "data/normalized_coverage.csv",
+  "data/liquorice_hemato.csv",
+  "data/liquorice_lung.csv"
 )
 
 generate_correlation_plots <- function(file_path, output_directory) {
@@ -158,8 +158,8 @@ for (input_file in file_paths) {
 }
 
 ##### Figure 3A ######
-fig3a_df <- read_csv("../data/fig3a_df.csv")
-pdf(file =  "../results/Fig3A.pdf",
+fig3a_df <- read_csv("data/fig3a_df.csv")
+pdf(file =  "results/Fig3A.pdf",
     width = 12.5,
     height = 5)
 ggplot(fig3a_df, aes(x = row_number, y = -log10(value), color = feature, group = feature, shape = Filtering)) +
@@ -176,8 +176,8 @@ ggplot(fig3a_df, aes(x = row_number, y = -log10(value), color = feature, group =
 dev.off()
 
 ##### Figure 3B #####
-auc_df_plot <- read_csv("../data/auc_plot.csv")
-pdf(file =  "../results/Fig3B.pdf",
+auc_df_plot <- read_csv("data/auc_plot.csv")
+pdf(file =  "results/Fig3B.pdf",
     width = 5,
     height = 5)
 ggplot(auc_df_plot, aes(x = feature, y = AUC, fill = feature, group = feature)) +
@@ -190,13 +190,13 @@ dev.off()
 
 ##### Supplementary Figure 1 ######
 
-counts_summary <- read_csv("../data/counts_summary.csv")
+counts_summary <- read_csv("data/counts_summary.csv")
 counts_summary$step_verbose <- factor(counts_summary$step_verbose, levels = c("Fastq", 
                                                                               "Trimming", "Alignment",
                                                                               "Filtering",
                                                                               "Final"))
 
-pdf(file = "../results/SFig1A.pdf",
+pdf(file = "results/SFig1A.pdf",
     width = 10,
     height = 5)
 ggplot(counts_summary, aes(step_verbose, percent_remaining, group=ref_genome)) +   
@@ -218,8 +218,8 @@ ggplot(counts_summary, aes(step_verbose, percent_remaining, group=ref_genome)) +
   theme(axis.text.x = element_text(angle = 45))
 dev.off()
 
-average_fragment_length <- read_csv("../data/average_fragment_length.csv")
-pdf(file = "../results/SFig1B.pdf",
+average_fragment_length <- read_csv("data/average_fragment_length.csv")
+pdf(file = "results/SFig1B.pdf",
     width = 6,
     height = 5)
 ggplot(average_fragment_length, aes(x = reads_verbose, y = avg, fill = phenotype)) +
@@ -233,8 +233,8 @@ ggplot(average_fragment_length, aes(x = reads_verbose, y = avg, fill = phenotype
   scale_fill_brewer(palette = "Accent", labels = c('Healthy', 'Cancer')) 
 dev.off()
 
-df_summary <- read_csv("../data/discarded_reads.csv")
-pdf(file = "../results/SFig1C.pdf",
+df_summary <- read_csv("data/discarded_reads.csv")
+pdf(file = "results/SFig1C.pdf",
     width = 9,
     height = 5)
 ggplot(df_summary, aes(x = reads_verbose, y = avg, fill = phenotype)) +
@@ -250,22 +250,22 @@ ggplot(df_summary, aes(x = reads_verbose, y = avg, fill = phenotype)) +
   scale_fill_brewer(palette = "Accent", labels = c('Healthy', 'Cancer')) 
 dev.off()
 
-runtimes_cumsum <- read_csv("../data/runtimes.csv")
+runtimes_cumsum <- read_csv("data/runtimes.csv")
 runtimes_cumsum$rule <- factor(runtimes_cumsum$rule, levels = c("trim", 
                                                                 "bwaMem", "filterBams",
                                                                 "CorrectGCBias",
                                                                 "sortByCoord"))
 ###### Prepare Supplementary Figures ########
-file_names <- c("../data/normalized_coverage.csv", 
-                "../data/liquorice_hemato.csv",
-                "../data/liquorice_lung.csv",
-                "../data/fragment_lengths.csv", 
-                "../data/ichorCNA.csv",
-                "../data/tMAD.csv")
+file_names <- c("data/normalized_coverage.csv", 
+                "data/liquorice_hemato.csv",
+                "data/liquorice_lung.csv",
+                "data/fragment_lengths.csv", 
+                "data/ichorCNA.csv",
+                "data/tMAD.csv")
 dataset_list <- list()
 for (file in file_names) {
   dataset <- read.csv(file, stringsAsFactors = FALSE)
-  val.col <- sub(".csv", "", sub("../data/", "", file))
+  val.col <- sub(".csv", "", sub("data/", "", file))
   names(dataset)[names(dataset) == "value"] <- val.col
   dataset_list[[val.col]] <- subset(dataset, select=c("sampleID", "ref_genome",
                                                       "settings", "phenotype",
@@ -473,7 +473,7 @@ mapping_dict <- setNames(c("no", "yes"), c("0", "30"))
 all_stat_test$trim <- mapping_dict[as.character(all_stat_test$trim)]
 
 ###### Supplementary Figure 2 #######
-pdf(file =  "../results/SFig2.pdf",
+pdf(file =  "results/SFig2.pdf",
     width = 12,
     height = 8)
 ggplot(all_stat_test, aes(x = trim, y = statistic, fill = `.y.`, alpha = trim)) +
@@ -486,7 +486,7 @@ ggplot(all_stat_test, aes(x = trim, y = statistic, fill = `.y.`, alpha = trim)) 
 dev.off()
 
 ##### Supplementary Figure 3 #######
-pdf(file =  "../results/SFig3.pdf",
+pdf(file =  "results/SFig3.pdf",
     width = 12,
     height = 8)
 ggplot(all_stat_test, aes(x = build, y = statistic, fill = `.y.`, alpha = build)) +
@@ -499,7 +499,7 @@ ggplot(all_stat_test, aes(x = build, y = statistic, fill = `.y.`, alpha = build)
 dev.off()
 
 ##### Supplementary Figure 4 ######
-pdf(file =  "../results/SFig4.pdf",
+pdf(file =  "results/SFig4.pdf",
     width = 12,
     height = 8)
 ggplot(all_stat_test, aes(x = gc, y = statistic, fill = `.y.`, alpha = gc)) +
@@ -512,7 +512,7 @@ ggplot(all_stat_test, aes(x = gc, y = statistic, fill = `.y.`, alpha = gc)) +
 dev.off()
 
 ##### Supplementary Figure 5 #####
-pdf(file =  "../results/SFig5.pdf",
+pdf(file =  "results/SFig5.pdf",
     width = 12,
     height = 8)
 ggplot(all_stat_test, aes(x = filter, y = statistic, fill = `.y.`, alpha = filter)) +
@@ -526,7 +526,7 @@ dev.off()
 
 ##### Supplementary Figure 6 ######
 
-pdf(file =  "../results/SFig6.pdf",
+pdf(file =  "results/SFig6.pdf",
     width = 10,
     height = 4)
 ggplot(runtimes_cumsum, aes(x=rule, y=csum/3600, colour=coloring, group = groups)) + 
