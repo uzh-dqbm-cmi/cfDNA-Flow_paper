@@ -1,0 +1,1025 @@
+sampleID,phenotype,value,ref_genome,settings,pheno,region,gc_bias,settings_verbose,trimming,genome
+LP0025_01_L004,healthy_control,0.179642504,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.176629291,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.184789378,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.177260675,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.182217701,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.178541602,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.177061945,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.183721221,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.182295303,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.1777465,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.183492298,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.175577773,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.183726677,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.183505058,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.186751898,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.180275042,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.035787613,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.034393676,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.042930142,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.032704641,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.043954006,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.037685489,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.040772509,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.034442788,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.040673843,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.036969182,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.038960997,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.034439702,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.044986134,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.042465924,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.037427357,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.042631794,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.169169084,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.169272165,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.163330921,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.160684275,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.166080261,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.165129078,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.16409222,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.165649933,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.165457229,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.167160126,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.164686847,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.167641361,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.164407664,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.166367666,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.165486805,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.167252083,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.12444028,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.132088078,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.13031676,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.122928426,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.124158126,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.128960947,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.131009585,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.126453317,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.126282468,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.131307515,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.130894964,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.124000511,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.129377953,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.129301335,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.122824647,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.123742694,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.094551369,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.082180476,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.092094263,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.091773766,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.084004374,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.085573259,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.083997224,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.081262605,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.085438389,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.09170616,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.08978326,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.089055724,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.093440993,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.090409823,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.08210113,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.094619924,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.126368296,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.126390645,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.126383579,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.118633798,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.1265204,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.120966075,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.119433773,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.123905767,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.121781771,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.118370938,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.119039473,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.125061452,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.121465543,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.126636164,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.118430716,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.118076107,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.146018542,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.133034005,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.136323596,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.143329967,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.144203334,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.144534955,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.134655972,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.145196726,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.133722003,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.135449766,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.143631603,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.143926606,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.135052137,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.136430595,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.144495756,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.135915001,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.155657398,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.152565899,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.153650191,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.150204753,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.153913474,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.157460998,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.152912809,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.153959027,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.153740019,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.153434093,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.153216248,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.157315004,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.15308664,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.15274812,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.154403293,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.150431968,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.032920106,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.033028752,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.046020328,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.032980575,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.050311178,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.039541963,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.035030359,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.044339152,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.052169665,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.047225475,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.050752683,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.037716412,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.045788692,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.041217678,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.034996068,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.047693035,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.162142063,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.159014726,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.151454327,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.152548989,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.161945408,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.150883383,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.151992901,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.159168861,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.159806922,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.164613678,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.162689306,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.153673038,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.160110045,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.154366387,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.152766795,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.150305161,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.176567613,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.174377089,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.169215868,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.171053356,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.173472296,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.168753472,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.176647258,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.176698742,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.166985014,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.17960964,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.169210236,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.170712577,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.175842924,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.178237454,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.166369974,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.180757013,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.13962641,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.14984126,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.140621343,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.144260612,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.150426691,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.139088476,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.138496548,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.145994345,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.142458462,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.145904431,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.148054515,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.150512208,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.146576071,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.141943759,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.140053833,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.150979232,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.220709233,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.21017594,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.213341609,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.209874579,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.219465176,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.20973261,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.210195428,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.212022919,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.218863564,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.215860473,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.218075516,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.218253263,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.21147834,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.212893152,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.218599731,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.221593822,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.177439633,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.177538988,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.169162079,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.170617502,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.171014829,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.175343231,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.171298891,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.172540463,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.171505814,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.178952004,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.174531024,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.174352807,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.177795016,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.167310323,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.175517416,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.169147151,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.124112178,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.123752664,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.127079358,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.129310081,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.126812779,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_24_L003,lung_cancer,0.12835189,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.12793322,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.121372113,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.119836407,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.120929028,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_24_L003,lung_cancer,0.128692785,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.119976527,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.124355679,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.121851774,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0025_24_L003,lung_cancer,0.120437524,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.13146654,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.099415655,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.097690763,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.093341364,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.100071038,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.094126332,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.09457123,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.099673309,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.093466776,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.101531932,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.103185434,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.099057218,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.101046461,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.09312186,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.102421344,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.098325608,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.092134725,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.164473348,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.163352655,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.164047729,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.164008968,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.164660989,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.163169033,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.165201347,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.164318178,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.166872441,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.168346863,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.165224927,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.164138238,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.162277194,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.163862209,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.164842664,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.163306495,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.106651666,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.109578681,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.121944458,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.123713802,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.108647312,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.107910075,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.119501919,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.109366595,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.119021137,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.107538181,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.124021169,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.106687862,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.121780768,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.124381121,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.106324338,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.120881809,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.124557796,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.124376328,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.125021738,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.123586856,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.126859271,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.120699208,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.119328784,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.127047734,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.12862611,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.127241013,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.12041628,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.120823276,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.118794626,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.125994859,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.116858131,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.117906525,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.042023653,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.051684126,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.042070561,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.049509465,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.043120639,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.042659048,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.041423228,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.050069517,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.049697392,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.051113449,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.04958272,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.050211727,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.042618011,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.041878865,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.04230421,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.049545714,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.096115135,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.096284958,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.105642819,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.096944814,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.104298819,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.095104316,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.104291075,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.093507291,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.096028285,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.103280111,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.102567344,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.093409283,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.102862219,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.094153399,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.102465878,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.103466389,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.095901754,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.096827649,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.096589881,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.103446456,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.103599253,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.103232468,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.096147397,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.098006878,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.095550284,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.101053599,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.102644211,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.102832591,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.101810228,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.097718715,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.102025599,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.097056669,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.082597843,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.082081547,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.081951652,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.080836779,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.07975603,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.078557809,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.080454587,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.0848244,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.079325653,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.081856673,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.079287649,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.078548611,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.082740775,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.079437167,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.075886282,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.084522354,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.131350645,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.131039796,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.123265498,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.125516707,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.126318485,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.131511952,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.128982418,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.131251797,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.123734899,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.123257126,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.124926785,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.122521195,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.125797243,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.129493386,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.130245735,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.128924453,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.133000957,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.133580504,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.127769926,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.127105807,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.125043411,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.127904945,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.131337577,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.131336376,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.127082122,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.130818321,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.131356857,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.132057707,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.130835107,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.126860034,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.127161978,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.133320047,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.120043138,0memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.123976714,30memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.12396643,0memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.129580337,0memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.13079305,30memhg19,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.129195135,0memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.12001828,0memhg19decoy,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.126807177,30memhg19,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.12939437,0memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.12178408,0memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.131130956,30memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.123986321,30memhg19,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.126299851,0memhg19decoy,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.130796871,30memhg19decoy,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.123561389,30memhg19decoy,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.129016508,30memhg19,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.182710382,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.183436721,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.176447992,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.176959579,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.170898695,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.182849597,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.175951919,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.17497052,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.182977815,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.175810871,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.182009474,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.176907508,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.183233805,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.179157157,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.182549814,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.178128822,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.156124515,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.153558545,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.156416018,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.15470128,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.151448094,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.156578219,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.147602001,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.153404083,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.152090611,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.15365026,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.149444985,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.149898051,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.143639855,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.155361289,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.149104292,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.153440027,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.176995912,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.185931312,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.187922353,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.182449295,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.174060257,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.176823696,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.186285478,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.184871396,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.179467109,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.175128106,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.18089026,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.174721482,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.181754312,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.171111815,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.180190718,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.17746609,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.162961261,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.154235344,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.161082743,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.167907459,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.158380444,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.164771863,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.163669927,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.158830375,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.159295862,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.16822794,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.169074133,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.158635797,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.158203094,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.164147306,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.163176922,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.159965454,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.15248231,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.14584232,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.145653085,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.144360722,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.150839698,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.150729917,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.146566105,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.150646049,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.144962402,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.143640273,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.150016642,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.151815098,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.147611432,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.149326196,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.145444646,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.144922798,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.182502021,30memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.182494389,0memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.184169102,30memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.184591712,30memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.175710059,0memhg19,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.173554219,0memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.183114155,30memhg19,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.185565506,30memhg19,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.18128933,30memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.179067121,0memhg19,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.186504418,30memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.1753862,0memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.176717158,0memhg19decoy,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.182736392,0memhg19decoy,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.182590107,0memhg19decoy,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.183326983,30memhg19decoy,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.177848935,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.176375625,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.16969195,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.182325898,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.167344939,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.177606375,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.182375051,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.172906359,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.174061453,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.178639707,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.18205698,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.175732059,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.174077406,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.181195922,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.167685804,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.169125034,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.042863421,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.040350371,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.045465806,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.043081291,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.035794944,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.035821651,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.040813712,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.042101631,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.032341904,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.035467179,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.041574438,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.04354608,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.036852948,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.031572905,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.046337279,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.040860266,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.162120452,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.164096802,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.161301829,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.163280856,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.165923992,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.165519098,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.163332857,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.164795548,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.162062414,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.16180928,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.160108233,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.160446306,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.161656253,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.16411915,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.158528402,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.160843654,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.124220636,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.129444948,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.122997016,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.118495105,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.116932933,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.131118224,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.122083254,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.117360834,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_04_L004,healthy_control,0.123720715,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.123311499,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_04_L004,healthy_control,0.130075093,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.122773657,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.124363499,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_04_L004,healthy_control,0.129738317,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.122710265,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.116403287,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.093575017,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.085058471,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.080532085,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.085475379,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.0818982,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.085248979,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.087414504,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.081325858,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.095463264,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.079200364,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.084123779,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.077696438,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.084351483,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.083616627,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.094381754,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.091794273,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.121424945,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.109070111,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.122531595,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.121814108,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.11003961,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.109522082,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.118671724,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.117203836,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.129829289,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.125216069,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.119873284,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.110863869,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.121097862,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.127430792,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.122375896,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.128989429,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.132516763,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.135507459,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.141289324,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.134412012,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.126598339,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.126109802,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.134267109,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.139297561,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.127207859,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.134385158,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.140869038,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.136546233,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.128657888,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.142455419,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.132064958,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.136124418,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.146428111,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.14522399,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.143119549,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.152413141,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.144275795,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.153311053,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.151528518,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.143031641,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.141514578,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.153262424,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.142871809,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.155059804,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.145971184,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.153353622,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.151568653,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.153913941,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.036824251,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.04037129,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.050595158,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.034273463,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.046506805,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.037320316,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.050919291,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.052483144,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.047216731,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.031740231,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.034531309,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.045423568,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.048615341,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.047293586,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.031851622,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.036295803,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.149996647,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.15145228,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.159312787,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.151770902,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.15263891,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.151807974,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.153622942,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.1450798,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.143761257,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.161276271,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.151626216,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.142401418,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.158979833,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.152628169,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.161277156,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.143794075,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.162654015,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.168261161,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.16857163,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.163832609,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.160230653,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.172430132,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.17691954,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.160953397,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.178000582,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.169714323,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.171016329,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.170568653,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.17754446,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.173250132,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.17247866,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.179241548,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.14891517,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.134134024,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.132430766,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.140378098,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.135171689,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.140158612,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.133594027,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.140005514,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.140980563,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.143609805,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.141279604,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.141630707,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.149182377,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.145914081,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.149680265,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.140901194,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.203489215,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.204325172,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.217708,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.218582794,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.214719626,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.217244891,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.20359533,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.210778565,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.197680085,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.204593362,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.211240779,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.212281164,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.197685394,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.210743657,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.197340965,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.196675386,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.171177657,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.174557119,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.176871501,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.17541191,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.173145883,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.175602195,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.171316883,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.167238929,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.163366759,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.166848069,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.169577714,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.170592242,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.167112774,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.167884515,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.164551446,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.172252144,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.127170738,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.134551173,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.119353055,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.121552049,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.130050722,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.12019353,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.123197594,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.132621035,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.127682833,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.127807261,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.134858147,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.126512985,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.12762058,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.126850145,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.127460433,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.133763375,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.089551427,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.095018602,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.090058118,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.100528028,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.091877371,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.0936903,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.101365952,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.093804604,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.099590957,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.089168812,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.095505856,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.099324935,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.095235194,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.0901101,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.092540533,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.092247904,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.161453978,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.158603677,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.16296905,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.162717607,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.161663728,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.163885717,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.159302905,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.163035949,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.157806163,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.164826616,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.161580696,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.159933833,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.16094565,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.157439636,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.159962522,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.161580058,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.117153135,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.103698852,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.119650659,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.110628656,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.104743797,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.121648028,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.121038347,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.108926909,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.102771037,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.112201452,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.111986627,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.122458332,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.126722249,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.104950905,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.118561932,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.122119001,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.126025175,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.118594913,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.122738121,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.118567743,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.125496247,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.117372121,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.118637176,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.130604266,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.122109302,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.130476778,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.121606682,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.129021132,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.121756012,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.12541586,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.124385482,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.12967552,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.05224685,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.043965053,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.051106062,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.036257065,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.043179699,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.043854997,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.044428265,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.044113525,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.034548971,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.03645028,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.042362477,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.043591871,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.035454651,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.051317669,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.042731604,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.05145237,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.104746874,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.097058261,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.101680225,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.097779645,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.102258241,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.103219737,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.093203915,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.096126954,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.094569254,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.094821176,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.087836552,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.089144575,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.096774896,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.095569683,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.087449502,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.088122819,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.105335081,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.106907959,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.099192304,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.100837005,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.09344501,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.092382956,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.094425902,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.10713557,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.109077166,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.102664556,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.096031646,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.100491794,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.099667756,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.099891748,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.101401294,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.100862908,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.0813839,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.074699083,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.073618533,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.083962205,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.074600798,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.084264352,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.078941865,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.076561385,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.078859554,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.079300023,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.07310018,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.084806921,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.078886575,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.078370046,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.087285948,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.079040227,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.13061292,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.116689559,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.118797778,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.121809745,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.129269727,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.117267356,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.130874546,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.122331283,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.123221716,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.12873746,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.124456507,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.123367396,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.122540159,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.115827473,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.127745066,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.123660586,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.135472068,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.132760732,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.132453973,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.135860154,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.13523538,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.128446785,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.132495888,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.130813966,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.131841107,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.133763463,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.132734826,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.131061544,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.127811623,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.126849445,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.129518336,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.127902716,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.121221924,0memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.136787613,30memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.128496791,30memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.128823068,0memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.122120352,30memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.1279944,0memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.126854799,0memhg38noalt,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.122338164,30memhg38,TrueDI26830XA,Lung cancer,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.130096665,0memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.121803778,0memhg38,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.136777958,30memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.133150893,30memhg38,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.130094503,30memhg38,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.129725049,30memhg38noalt,FalseDI26830XA,Lung cancer,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.13462248,0memhg38noalt,False40,Lung cancer,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.134305899,0memhg38noalt,True40,Lung cancer,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.184032052,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.18223266,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.186455798,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.183246418,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.184217621,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.176474088,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.180231947,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.181008296,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.176731694,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.176106634,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.185429012,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.1772794,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.185756816,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.181211195,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.179166653,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.180303428,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.144946709,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.146036699,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.159176706,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.155311235,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.163941663,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.143712708,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.156305174,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.153344742,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.145579453,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.154159775,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.14227293,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.151483611,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.152488242,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.14789116,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.14562247,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.146035079,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.177937951,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.172979787,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.183044444,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.173682301,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.181754817,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.177568576,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.1768946,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.180047206,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.172146953,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.17973145,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.169683949,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.173231588,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.175422692,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.1817333,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.177440304,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.177895818,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.160568095,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.168177262,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.158320347,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.155476757,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.166471885,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.155933371,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.170983829,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.165211017,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.156135564,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.158561548,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.168158336,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.157446668,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.165355834,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.158985872,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.16283991,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.1669479,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.134059562,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.136501563,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.142447115,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.143879039,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.144710769,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.134529095,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.141591091,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.148281038,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.146991683,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.134585627,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.140796996,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.143683802,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.147189551,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.141350166,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.141041719,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.147055143,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.167327208,0memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.177466878,30memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.172500109,30memhg38,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.173049094,0memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.187145274,30memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.18395842,30memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.173416997,0memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.178448675,30memhg38,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.174758527,0memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.17388513,0memhg38,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.172951627,30memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.17867793,0memhg38noalt,True40,Healthy,Hematopoietic,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.165450345,0memhg38,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.179685864,0memhg38noalt,False40,Healthy,Hematopoietic,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.179309679,30memhg38noalt,FalseDI26830XA,Healthy,Hematopoietic,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.178132464,30memhg38noalt,TrueDI26830XA,Healthy,Hematopoietic,GC bias corrected,Strict,Trimmed,hg38noalt

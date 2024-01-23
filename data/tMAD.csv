@@ -1,0 +1,1281 @@
+sampleID,phenotype,value,ref_genome,settings,gc_bias,settings_verbose,trimming,genome
+LP0020_01,healthy_control,0.004745084,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_01,healthy_control,0.006142742,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_01,healthy_control,0.006142742,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_01,healthy_control,0.005737005,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_01,healthy_control,0.004048539,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_01,healthy_control,0.004339005,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_01,healthy_control,0.003640861,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_01,healthy_control,0.004040325,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_01,healthy_control,0.004633125,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_01,healthy_control,0.005435361,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_01,healthy_control,0.004736875,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_01,healthy_control,0.003342636,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_01,healthy_control,0.003640861,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_01,healthy_control,0.004048539,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_01,healthy_control,0.005035097,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_01,healthy_control,0.00363915,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_02,healthy_control,0.008534375,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_02,healthy_control,0.007835889,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_02,healthy_control,0.006523535,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_02,healthy_control,0.005331269,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_02,healthy_control,0.009933747,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_02,healthy_control,0.011909033,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_02,healthy_control,0.007834861,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_02,healthy_control,0.008251231,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_02,healthy_control,0.008534375,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_02,healthy_control,0.008943199,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_02,healthy_control,0.009119418,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_02,healthy_control,0.007552289,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_02,healthy_control,0.006128953,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_02,healthy_control,0.007721875,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_02,healthy_control,0.007428668,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_02,healthy_control,0.007835889,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_03,healthy_control,0.008244827,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_03,healthy_control,0.003641203,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_03,healthy_control,0.006429791,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_03,healthy_control,0.004339005,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_03,healthy_control,0.003337059,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_03,healthy_control,0.008533233,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_03,healthy_control,0.005036807,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_03,healthy_control,0.003641546,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_03,healthy_control,0.004752284,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_03,healthy_control,0.008537804,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_03,healthy_control,0.007130898,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_03,healthy_control,0.00503282,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_03,healthy_control,0.006440175,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_03,healthy_control,0.003641203,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_03,healthy_control,0.003641203,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_03,healthy_control,0.004736875,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_04,healthy_control,0.016794793,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_04,healthy_control,0.016988125,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_04,healthy_control,0.01470275,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_04,healthy_control,0.018192336,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_04,healthy_control,0.014158533,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_04,healthy_control,0.014010306,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_04,healthy_control,0.015377411,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_04,healthy_control,0.016947558,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_04,healthy_control,0.011724709,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_04,healthy_control,0.013410899,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_04,healthy_control,0.014300208,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_04,healthy_control,0.014021625,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_04,healthy_control,0.012026809,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_04,healthy_control,0.016988125,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_04,healthy_control,0.014682668,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_04,healthy_control,0.016118196,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_05,healthy_control,0.008420818,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_05,healthy_control,0.006864236,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_05,healthy_control,0.008126698,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_05,healthy_control,0.009230236,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_05,healthy_control,0.007721875,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_05,healthy_control,0.008421161,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_05,healthy_control,0.009628676,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_05,healthy_control,0.009941981,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_05,healthy_control,0.008679425,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_05,healthy_control,0.009119875,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_05,healthy_control,0.007975666,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_05,healthy_control,0.0106247,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_05,healthy_control,0.009524127,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_05,healthy_control,0.009524127,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_05,healthy_control,0.009524127,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_05,healthy_control,0.01034932,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_06,healthy_control,0.008248028,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_06,healthy_control,0.007136375,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_06,healthy_control,0.005386335,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_06,healthy_control,0.006437775,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_06,healthy_control,0.013899375,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_06,healthy_control,0.007276151,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_06,healthy_control,0.008127839,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_06,healthy_control,0.007830753,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_06,healthy_control,0.008127268,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_06,healthy_control,0.011722543,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_06,healthy_control,0.006571018,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_06,healthy_control,0.007135461,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_06,healthy_control,0.010719803,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_06,healthy_control,0.011761637,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_06,healthy_control,0.008543525,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_06,healthy_control,0.007721875,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_07,healthy_control,0.005748679,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_07,healthy_control,0.004757437,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_07,healthy_control,0.004633125,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_07,healthy_control,0.004058611,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_07,healthy_control,0.004061364,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0020_07,healthy_control,0.004633125,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_07,healthy_control,0.004633125,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_07,healthy_control,0.004633125,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_07,healthy_control,0.004633125,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_07,healthy_control,0.005457066,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_07,healthy_control,0.004633125,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_07,healthy_control,0.006160363,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_07,healthy_control,0.004633125,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_07,healthy_control,0.003643948,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_07,healthy_control,0.004633125,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_07,healthy_control,0.003642918,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_08,healthy_control,0.010343487,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0020_08,healthy_control,0.010343487,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0020_08,healthy_control,0.010615813,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0020_08,healthy_control,0.007721875,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0020_08,healthy_control,0.007721875,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0020_08,healthy_control,0.007721875,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_08,healthy_control,0.009656101,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0020_08,healthy_control,0.01203881,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0020_08,healthy_control,0.013310222,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0020_08,healthy_control,0.008823701,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0020_08,healthy_control,0.010355158,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0020_08,healthy_control,0.009915961,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0020_08,healthy_control,0.009922793,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0020_08,healthy_control,0.009615923,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0020_08,healthy_control,0.009225218,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0020_08,healthy_control,0.011789581,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.002646201,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.003343433,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.002941918,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.003640861,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.003341838,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.001948057,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.003348225,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_01_L004,healthy_control,0.002941462,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.002645517,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.003640518,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.003348225,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.003348225,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.003349025,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.004042148,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_01_L004,healthy_control,0.002941234,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_01_L004,healthy_control,0.003349025,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.00615406,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.009820761,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.005037948,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.007844125,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.006141486,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.00685598,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.007537433,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.009526525,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.004752284,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_02_L004,healthy_control,0.00615532,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.005038518,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.005737005,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.005038518,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_02_L004,healthy_control,0.004339918,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.005037948,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_02_L004,healthy_control,0.00573632,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.002940094,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.002940322,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.003638125,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.003638808,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.002242405,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.00334503,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.00433718,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.00363915,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.003339448,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.003344231,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.002645517,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_03_L003,healthy_control,0.004335358,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.002242405,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_03_L003,healthy_control,0.004043972,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.00363915,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_03_L003,healthy_control,0.004336725,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.00195091,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.00195091,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.001544375,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.004042148,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.002242975,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.002649625,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.002941462,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.002243318,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.002942375,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.00195091,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_04_L004,healthy_control,0.00294169,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.002243089,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.002941462,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_04_L004,healthy_control,0.001950339,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.002096315,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_04_L004,healthy_control,0.002242975,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.002941006,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.003349025,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.002646201,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.003640861,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.002941006,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.003349025,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.003641203,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.003343433,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.004040325,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.00294169,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_05_L003,lung_cancer,0.003341838,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.004040325,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_05_L003,lung_cancer,0.002242975,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.004048539,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.002941462,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_05_L003,lung_cancer,0.004633125,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.003343433,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.004049453,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.002941918,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.004339461,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.003349025,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_06_L003,lung_cancer,0.002942146,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.004042148,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.004633125,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.003640861,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.003639492,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.003343433,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.00265031,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.002941918,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.003343433,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_06_L003,lung_cancer,0.004040325,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_06_L003,lung_cancer,0.00404306,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.004042148,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.0054365,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.003640861,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.004633125,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.005331725,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.004042148,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.003343433,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.002941918,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.005734267,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_07_L004,healthy_control,0.005331725,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.003640518,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.004042148,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.004339918,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_07_L004,healthy_control,0.004042148,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.006729268,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_07_L004,healthy_control,0.005738375,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.002649625,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.00294169,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.003345828,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.002649625,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.002649625,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_08_L004,healthy_control,0.002243089,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.002648255,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.003346627,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.00294169,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_08_L004,healthy_control,0.003640176,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.00265031,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.002649625,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.003349025,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.002242861,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.00265031,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_08_L004,healthy_control,0.00265031,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.031520861,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.03139717,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.033698521,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.029288258,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.028587914,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.028348806,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.037812328,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.032801158,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.030000155,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.02862558,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.028604046,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.032075204,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.027820244,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_10_L003,lung_cancer,0.027930046,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_10_L003,lung_cancer,0.029315727,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_10_L003,lung_cancer,0.029920109,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.003641203,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.004051282,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.004340375,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.003640861,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.004043972,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.004339461,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.003344231,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.003641203,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.004339005,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.002942146,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.003640861,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.004044885,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_11_L003,lung_cancer,0.004341746,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.004744056,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_11_L003,lung_cancer,0.003641203,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_11_L003,lung_cancer,0.004052197,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.007527063,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.006438574,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.009623207,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.009623207,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.009940608,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.004341289,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.009239034,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.011015058,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_12_L003,lung_cancer,0.010641039,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.006432981,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.008926086,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.00573906,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_12_L003,lung_cancer,0.011314414,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.01131282,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.006432981,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_12_L003,lung_cancer,0.009222712,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.045147469,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.04185947,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.044629208,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.045500856,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.04135451,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.043451576,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.03838244,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_15_L003,lung_cancer,0.045551962,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.042546775,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.042055629,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.039756112,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.045845613,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.043044111,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.043858476,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_15_L003,lung_cancer,0.037576201,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_15_L003,lung_cancer,0.046546962,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.014497255,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.013729789,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.01413667,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.013408964,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.014552368,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.015542684,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.012739355,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.013401226,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.015540394,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.014097665,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_17_L003,lung_cancer,0.016238994,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.013798541,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.020076875,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_17_L003,lung_cancer,0.015540394,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.013399293,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_17_L003,lung_cancer,0.012739355,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.100915422,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.09750255,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.099898531,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.101829991,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.094515403,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.097621106,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.102951699,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.09690676,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.104680318,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.101270598,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.095530426,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_21_L004,lung_cancer,0.100523603,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.102577173,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.09609355,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_21_L004,lung_cancer,0.0944138,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_21_L004,lung_cancer,0.112739375,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.003641546,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.002941918,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0025_24_L003,lung_cancer,0.002941918,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.003352225,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.00334503,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.002942603,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.003640176,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0025_24_L003,lung_cancer,0.003349824,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.002942146,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.003351425,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0025_24_L003,lung_cancer,0.002650996,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.003352225,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.004050367,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.002942603,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0025_24_L003,lung_cancer,0.002942146,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0025_24_L003,lung_cancer,0.003345828,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.014198362,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.013493509,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.012800591,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.012803433,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.014887871,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.013496464,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.012803433,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.011625411,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.016984699,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.014192224,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.012101877,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_05_L003,lung_cancer,0.014192224,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_05_L003,lung_cancer,0.014841679,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.012741186,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.013842981,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_05_L003,lung_cancer,0.012107334,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.004633125,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.008524111,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.009918693,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.004739951,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.008246427,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.004339918,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.004738925,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.004633125,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.005733583,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.005133727,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_07_L003,lung_cancer,0.006438574,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.004633125,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.004738925,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_07_L003,lung_cancer,0.00603044,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.00603044,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_07_L003,lung_cancer,0.004339461,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.231527668,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.23040129,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.228056972,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.204137857,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.227604376,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.226494324,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.229993612,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.227238756,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.229500476,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.233535415,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_08_L003,lung_cancer,0.22967155,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.23040129,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.227694227,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_08_L003,lung_cancer,0.228348808,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.232091811,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_08_L003,lung_cancer,0.229003061,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.007863123,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.009190274,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.008547735,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.008547735,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.007861096,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_22_L003,lung_cancer,0.009238091,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.009932834,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.009251598,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.00855629,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.009891459,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.008545598,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.007863123,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.009256106,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_22_L003,lung_cancer,0.007166014,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.008545598,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_22_L003,lung_cancer,0.008545598,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.057556245,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.05138637,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.047626106,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.064083071,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.043828027,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.052766315,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.049998124,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_26_L004,lung_cancer,0.051432174,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.049990724,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.050692303,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.049296545,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.049975931,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_26_L004,lung_cancer,0.057382715,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.052088064,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.053459932,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_26_L004,lung_cancer,0.047618586,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.067387776,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.049876212,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.048855276,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.049563144,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.067690541,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.046539217,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.047234185,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.040969463,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.064376635,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.043379816,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.04746251,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.06266403,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_38_L004,lung_cancer,0.05033685,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.052134559,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_38_L004,lung_cancer,0.065989525,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_38_L004,lung_cancer,0.041677324,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.119610716,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.117215245,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.115828125,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.123081613,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.125094375,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.12648172,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.125094375,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.116521741,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.131271875,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0026_42_L004,lung_cancer,0.125094375,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.122005625,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.125787991,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.115828125,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0026_42_L004,lung_cancer,0.122005625,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.117215021,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0026_42_L004,lung_cancer,0.125094375,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.05520005,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.066408125,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.077895855,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.065421355,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.069874757,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0027_26_L003,lung_cancer,0.064583727,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.064155943,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.063457125,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.066408125,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.058137298,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.062755891,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.055118274,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.07127688,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.065564282,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0027_26_L003,lung_cancer,0.066823823,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0027_26_L003,lung_cancer,0.063319375,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.04094272,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.047116281,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.03122294,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.025028981,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.034658487,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.049165004,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.044031845,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0027_35_L003,lung_cancer,0.033057641,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.026408625,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.031909543,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.048458437,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.029157022,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0027_35_L003,lung_cancer,0.028459418,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.04985282,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.030536227,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0027_35_L003,lung_cancer,0.025033765,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.035681204,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.029605344,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.030510254,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.029106577,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.030787805,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.030309232,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.034298519,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0027_39_L003,lung_cancer,0.031712407,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.032909822,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.034298519,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.03428785,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.035998572,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.039469468,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0027_39_L003,lung_cancer,0.037654275,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.036375046,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0027_39_L003,lung_cancer,0.028906058,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.07146419,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.069496875,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.066408125,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.063319375,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.069496875,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.066408125,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.063319375,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.069496875,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0028_01_L004,lung_cancer,0.069496875,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.066408125,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.069496875,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.063319375,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.069496875,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.054053125,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0028_01_L004,lung_cancer,0.063319375,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0028_01_L004,lung_cancer,0.069074601,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.004633125,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.004633125,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.0047379,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.005035097,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.007136375,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.006146511,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.005035667,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_02_L004,healthy_control,0.004338092,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.005732899,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.004747139,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.005036237,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.006029984,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.006436176,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.004748167,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_02_L004,healthy_control,0.004037592,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_02_L004,healthy_control,0.004039413,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.003639492,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.002940778,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.003639834,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.002940778,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.004633125,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.004337636,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.00433718,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_04_L003,healthy_control,0.002940778,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.002940778,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.004633125,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.003341838,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.002941462,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.002941006,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.002941006,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_04_L003,healthy_control,0.002941006,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_04_L003,healthy_control,0.002941006,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.00265031,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.002242975,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.002242975,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002644149,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.002649625,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002242975,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002243089,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002941462,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002242861,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.002243089,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.002243318,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.002645517,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002243089,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_05_L004,healthy_control,0.002243089,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_05_L004,healthy_control,0.002242861,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0029_05_L004,healthy_control,0.002941462,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.004341289,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.002650996,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.003346627,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.002942146,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.002942832,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.002650996,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.002243318,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.00265031,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0029_06_L003,healthy_control,0.002941462,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.003350624,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.003344231,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.00265031,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0029_06_L003,healthy_control,0.002941462,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.003350624,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.003641889,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0029_06_L003,healthy_control,0.002243089,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.003349025,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.003349025,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.003349025,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.002649625,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.00334503,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.002941462,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.003343433,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.003348225,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.004339918,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.002941918,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0030_03_L004,healthy_control,0.003641203,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.003348225,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.004042148,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.003349025,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0030_03_L004,healthy_control,0.003343433,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0030_03_L004,healthy_control,0.002941918,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.002941462,30memhg19,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.002646885,30memhg19decoy,True40,GC bias corrected,Lenient,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.003342636,30memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.004339918,0memhg19decoy,False40,GC bias not corrected,Lenient,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.002941918,0memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.00294169,30memhg19,False40,GC bias not corrected,Lenient,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.002646201,30memhg19,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.00294169,0memhg19decoy,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.001946347,30memhg19,True40,GC bias corrected,Lenient,Trimmed,hg19
+LP0030_05_L004,healthy_control,0.002941462,0memhg19,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.002243089,30memhg19decoy,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.002242861,0memhg19,True40,GC bias corrected,Lenient,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.003344231,30memhg19decoy,False40,GC bias not corrected,Lenient,Trimmed,hg19decoy
+LP0030_05_L004,healthy_control,0.00294169,0memhg19,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.00294169,0memhg19,False40,GC bias not corrected,Lenient,Untrimmed,hg19
+LP0030_05_L004,healthy_control,0.001946347,0memhg19decoy,True40,GC bias corrected,Lenient,Untrimmed,hg19decoy
+LP0020_01,healthy_control,0.003637783,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_01,healthy_control,0.004749196,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_01,healthy_control,0.002653054,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_01,healthy_control,0.004739951,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_01,healthy_control,0.004338548,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_01,healthy_control,0.00433718,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_01,healthy_control,0.004749196,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_01,healthy_control,0.003641203,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_01,healthy_control,0.00433718,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_01,healthy_control,0.006138976,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_01,healthy_control,0.005733583,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_01,healthy_control,0.004742003,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_01,healthy_control,0.004338548,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_01,healthy_control,0.004749196,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_01,healthy_control,0.004733802,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_01,healthy_control,0.004338092,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_02,healthy_control,0.009915961,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_02,healthy_control,0.008528669,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_02,healthy_control,0.011311227,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_02,healthy_control,0.013152648,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_02,healthy_control,0.002638007,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_02,healthy_control,0.00821452,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_02,healthy_control,0.006437775,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_02,healthy_control,0.009920059,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_02,healthy_control,0.005438779,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_02,healthy_control,0.009521731,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_02,healthy_control,0.007129075,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_02,healthy_control,0.009926898,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_02,healthy_control,0.005731533,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_02,healthy_control,0.005035097,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_02,healthy_control,0.008932925,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_02,healthy_control,0.009221459,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_03,healthy_control,0.007721875,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_03,healthy_control,0.009774588,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_03,healthy_control,0.006031125,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_03,healthy_control,0.004339461,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_03,healthy_control,0.011171219,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_03,healthy_control,0.006843626,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_03,healthy_control,0.003642232,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_03,healthy_control,0.011045861,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_03,healthy_control,0.004339918,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_03,healthy_control,0.005447911,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_03,healthy_control,0.009235261,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_03,healthy_control,0.011045861,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_03,healthy_control,0.005738375,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_03,healthy_control,0.009333193,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_03,healthy_control,0.005168894,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_03,healthy_control,0.003351425,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_04,healthy_control,0.011685831,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_04,healthy_control,0.005729485,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_04,healthy_control,0.014001076,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_04,healthy_control,0.011862957,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_04,healthy_control,0.011600357,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_04,healthy_control,0.013300203,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_04,healthy_control,0.006136468,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_04,healthy_control,0.01305947,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_04,healthy_control,0.01316285,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_04,healthy_control,0.013387709,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_04,healthy_control,0.013641838,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_04,healthy_control,0.014843432,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_04,healthy_control,0.014598432,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_04,healthy_control,0.010920529,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_04,healthy_control,0.010387052,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_04,healthy_control,0.015112136,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_05,healthy_control,0.012607291,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_05,healthy_control,0.007721875,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_05,healthy_control,0.010635091,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_05,healthy_control,0.007210209,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_05,healthy_control,0.012580675,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_05,healthy_control,0.009911868,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_05,healthy_control,0.007721875,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_05,healthy_control,0.005739746,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_05,healthy_control,0.008618652,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_05,healthy_control,0.006126452,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_05,healthy_control,0.008361712,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_05,healthy_control,0.007721875,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_05,healthy_control,0.006440175,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_05,healthy_control,0.005034527,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_05,healthy_control,0.012033663,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_05,healthy_control,0.010216913,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_06,healthy_control,0.008517285,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_06,healthy_control,0.017794919,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_06,healthy_control,0.010810625,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_06,healthy_control,0.012014836,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_06,healthy_control,0.011698765,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_06,healthy_control,0.009766005,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_06,healthy_control,0.0232704,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_06,healthy_control,0.009654268,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_06,healthy_control,0.011088145,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_06,healthy_control,0.016949516,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_06,healthy_control,0.016103029,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_06,healthy_control,0.007721875,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_06,healthy_control,0.009524926,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_06,healthy_control,0.016988125,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_06,healthy_control,0.007721875,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_06,healthy_control,0.007835889,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_07,healthy_control,0.007541885,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_07,healthy_control,0.011912451,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_07,healthy_control,0.004749196,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_07,healthy_control,0.006850485,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_07,healthy_control,0.009654268,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0020_07,healthy_control,0.009231492,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_07,healthy_control,0.004633125,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_07,healthy_control,0.008126698,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_07,healthy_control,0.005746614,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_07,healthy_control,0.006032039,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_07,healthy_control,0.005728802,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_07,healthy_control,0.009524127,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_07,healthy_control,0.007546341,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_07,healthy_control,0.010810625,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_07,healthy_control,0.004057694,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_07,healthy_control,0.010345431,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_08,healthy_control,0.010853108,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0020_08,healthy_control,0.010443245,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0020_08,healthy_control,0.005820279,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0020_08,healthy_control,0.010512403,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0020_08,healthy_control,0.006028844,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0020_08,healthy_control,0.010990524,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0020_08,healthy_control,0.010810625,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0020_08,healthy_control,0.011004824,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0020_08,healthy_control,0.007422288,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0020_08,healthy_control,0.008222477,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0020_08,healthy_control,0.009921426,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0020_08,healthy_control,0.014149366,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0020_08,healthy_control,0.010217825,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0020_08,healthy_control,0.01342641,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0020_08,healthy_control,0.010620255,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0020_08,healthy_control,0.012445357,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.002941006,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.003638808,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.002243089,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.003638466,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.002941462,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.002941234,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.003639834,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_01_L004,healthy_control,0.002941234,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.002941006,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.002941234,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.003349025,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.002941234,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.002941234,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.003638808,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_01_L004,healthy_control,0.002941462,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_01_L004,healthy_control,0.003639834,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.00433718,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.0047379,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.004633125,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.005435361,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.004045798,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.0054365,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.006435377,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.005434223,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.005035097,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_02_L004,healthy_control,0.006435377,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.005035097,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.005035097,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.00433718,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_02_L004,healthy_control,0.005035097,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.00513532,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_02_L004,healthy_control,0.005444483,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.002645517,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.003346627,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.002646885,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.003639492,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.003345828,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.002242633,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.002940094,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.004338092,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.00264757,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.003345828,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.00264757,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_03_L003,healthy_control,0.002940094,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.002941234,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_03_L003,healthy_control,0.00264757,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.002645517,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_03_L003,healthy_control,0.002242519,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.001544375,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.002942146,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.002242975,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.001946347,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.00265031,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.002242861,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_04_L004,healthy_control,0.002940778,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.002242975,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_04_L004,healthy_control,0.002242633,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.001544375,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_04_L004,healthy_control,0.002940778,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.002942146,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.002646885,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_04_L004,healthy_control,0.001949768,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.002942146,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_04_L004,healthy_control,0.003639492,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.002939867,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.002939184,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.003637783,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.003344231,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.002242064,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.003341838,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.004037592,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.003637442,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.003338651,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.005439919,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_05_L003,lung_cancer,0.006431386,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.003638808,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_05_L003,lung_cancer,0.003343433,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.00334503,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.003637783,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_05_L003,lung_cancer,0.002646885,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.003640518,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.002648255,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.004339005,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.007125432,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.002941006,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_06_L003,lung_cancer,0.004746111,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.003345828,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.002941006,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.002242975,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.004633125,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.004338548,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.003640176,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.003640518,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.007126342,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_06_L003,lung_cancer,0.004633125,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_06_L003,lung_cancer,0.003641546,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.004336725,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.002242747,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.003638808,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.004336269,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.004338548,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.007829727,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.004033953,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.00363915,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.003638808,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_07_L004,healthy_control,0.002644149,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.004336269,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.002645517,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.003638808,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_07_L004,healthy_control,0.002940322,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.0036371,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_07_L004,healthy_control,0.004336269,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.003639834,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.002940778,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.003347426,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.003640861,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.004049453,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_08_L004,healthy_control,0.001947487,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.002648255,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.003640518,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.002941006,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_08_L004,healthy_control,0.003638125,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.002646201,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.002941918,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.002648255,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.00294169,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.00294055,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_08_L004,healthy_control,0.002942375,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.040997191,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.033808727,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.032431875,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.037991173,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.041667852,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.03380762,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.040874857,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.038791315,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.042170141,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.039491045,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.037992076,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.03792727,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.035496731,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_10_L003,lung_cancer,0.043566755,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_10_L003,lung_cancer,0.026942524,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_10_L003,lung_cancer,0.04018431,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.004048539,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.008537804,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.005445625,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.006143998,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.008125557,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.007836917,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.006432183,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.005445625,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.004048539,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.004339461,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.005446768,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.007428668,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_11_L003,lung_cancer,0.003640176,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.006436975,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_11_L003,lung_cancer,0.006147768,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_11_L003,lung_cancer,0.004049453,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.004339918,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.011311227,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.010636577,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.009817334,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.010316343,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.008380136,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.009356029,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.012697399,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_12_L003,lung_cancer,0.0122068,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.009652436,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.009932376,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.011311227,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_12_L003,lung_cancer,0.011198663,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.010322149,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.009941981,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_12_L003,lung_cancer,0.011395439,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.036054889,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.032966139,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.035379874,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.040559645,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.033050706,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.038056131,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.036049761,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_15_L003,lung_cancer,0.036364597,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.03323263,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.039021246,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.038150015,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.038354448,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.040356194,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.041957283,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_15_L003,lung_cancer,0.040139981,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_15_L003,lung_cancer,0.038046694,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.018323271,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.011306451,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.008910732,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.01623462,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.009909141,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.017640296,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.016582259,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.016567501,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.016511279,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.011306451,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_17_L003,lung_cancer,0.01861542,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.013092782,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.016346184,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_17_L003,lung_cancer,0.01651516,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.009610467,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_17_L003,lung_cancer,0.012726552,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.122005625,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.106561875,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.125094375,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.105062422,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.102715145,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.099945524,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.102646115,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.099661913,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.103967516,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.115828125,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.118916875,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_21_L004,lung_cancer,0.105081548,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.112739375,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.118916875,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_21_L004,lung_cancer,0.106561875,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_21_L004,lung_cancer,0.115828125,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.00294169,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.003641203,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.003344231,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.002942146,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.003639834,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.002242975,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.004750225,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.004339005,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.005037948,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.004338548,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0025_24_L003,lung_cancer,0.003349824,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.002942375,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.004339918,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.003640861,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0025_24_L003,lung_cancer,0.003640176,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0025_24_L003,lung_cancer,0.004338092,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.013548959,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.012982647,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.014697059,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.011450462,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.016492846,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.012019964,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.011327181,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.01621979,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.020076875,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.012843346,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.016988125,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_05_L003,lung_cancer,0.013416711,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_05_L003,lung_cancer,0.013300203,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.01022056,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.0128395,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_05_L003,lung_cancer,0.011617419,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.00503282,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.004337636,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.005426263,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.005823686,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.005730167,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.004043972,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.004337636,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.005734951,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.005031682,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.007821528,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_07_L003,lung_cancer,0.006825846,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.00643378,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.004337636,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_07_L003,lung_cancer,0.005733583,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.00503282,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_07_L003,lung_cancer,0.004335813,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.221683173,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.199732518,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.155760242,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.167697355,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.212166514,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.157982087,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.150171086,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.17362103,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.16708096,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.212027937,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_08_L003,lung_cancer,0.165726734,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.157436654,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.197722963,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_08_L003,lung_cancer,0.213985609,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.154753354,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_08_L003,lung_cancer,0.215732691,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.011586767,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.010190618,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.01269607,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.009937559,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.007413677,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_22_L003,lung_cancer,0.009935196,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.010196038,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.00741775,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.008805988,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.007881402,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.009937559,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.008417974,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.009810853,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_22_L003,lung_cancer,0.006718709,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.010884797,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_22_L003,lung_cancer,0.010615327,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.048646449,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.051900511,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.053356224,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.045150674,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.038859136,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.051787924,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.047882286,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_26_L004,lung_cancer,0.046527748,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.034125225,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.037208144,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.046976083,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.055529008,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_26_L004,lung_cancer,0.049572505,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.051900511,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.055285025,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_26_L004,lung_cancer,0.035069152,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.072498366,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.071493168,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.063649115,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.074645713,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.067691253,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.059685247,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.076177689,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.058983092,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.059724506,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.077499874,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.065676464,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.057198534,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_38_L004,lung_cancer,0.069701987,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.039954562,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_38_L004,lung_cancer,0.062192947,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_38_L004,lung_cancer,0.065036403,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.118600568,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.120684228,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.118601017,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.115828125,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.116899388,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.121049974,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.117907963,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.126382321,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.119290593,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0026_42_L004,lung_cancer,0.119296207,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.12099705,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.11929677,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.121378407,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0026_42_L004,lung_cancer,0.117591544,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.118597875,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0026_42_L004,lung_cancer,0.11481955,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.064931959,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.081413957,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.058296927,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.053106427,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.063319375,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0027_26_L003,lung_cancer,0.068429933,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.07609622,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.063523296,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.067568163,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.060974957,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.060261085,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.078167778,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.056190741,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.054053125,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0027_26_L003,lung_cancer,0.055612471,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0027_26_L003,lung_cancer,0.056569899,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.056082318,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.053603173,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.028400856,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.027715244,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.050317911,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.05541593,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.054000505,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0027_35_L003,lung_cancer,0.056764886,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.034616908,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.03016028,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.052656679,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.029086359,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0027_35_L003,lung_cancer,0.029145357,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.054032622,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.03016028,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0027_35_L003,lung_cancer,0.030457035,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.041154276,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.053598509,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.052184378,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.047383287,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.035234165,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.034271618,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.045309416,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0027_39_L003,lung_cancer,0.039743954,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.032145035,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.044612069,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.041350805,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.032840795,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.048487011,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0027_39_L003,lung_cancer,0.034259862,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.040644126,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0027_39_L003,lung_cancer,0.056967868,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.047704101,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.062467249,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.069496875,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.069496875,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.080769797,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.066408125,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.046212331,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.069496875,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0028_01_L004,lung_cancer,0.044786875,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.053153147,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.049865549,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.066408125,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.069496875,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.069496875,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0028_01_L004,lung_cancer,0.069496875,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0028_01_L004,lung_cancer,0.069496875,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.003345828,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.003639492,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.005037948,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.004336725,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.003639492,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.004736875,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.004335358,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_02_L004,healthy_control,0.004633125,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.004746111,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.004043972,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.005737005,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.004039413,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.004744056,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.004336725,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_02_L004,healthy_control,0.004046711,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_02_L004,healthy_control,0.006142742,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.003638466,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.003341838,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.003839795,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.003638125,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.00334503,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.004042148,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.004042148,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_04_L003,healthy_control,0.003346627,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.00294169,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.004334903,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.003638466,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.003346627,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.004335813,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.003342636,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_04_L003,healthy_control,0.004040325,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_04_L003,healthy_control,0.003638808,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.002242633,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.002242633,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.002644833,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.003346627,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.002242519,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.00264757,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.002242633,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.002242178,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.003638808,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.003638466,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.001948627,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.001544375,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.00334503,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_05_L004,healthy_control,0.002242747,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_05_L004,healthy_control,0.003341838,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0029_05_L004,healthy_control,0.002940322,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.003350624,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.004046711,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.004746111,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.003640518,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.00264894,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.004047625,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.003349025,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.007721875,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0029_06_L003,healthy_control,0.003349824,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.004049453,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.004749196,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.007721875,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0029_06_L003,healthy_control,0.003351425,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.003640176,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.003639834,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0029_06_L003,healthy_control,0.007721875,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.002941234,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.00294055,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.003638808,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.002940094,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.002941462,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.003638808,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.002242975,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.003345828,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.003347426,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.002941462,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0030_03_L004,healthy_control,0.002941234,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.002940322,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.002941234,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.003339448,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0030_03_L004,healthy_control,0.002242861,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0030_03_L004,healthy_control,0.002242861,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.004038503,30memhg38,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.002645517,30memhg38noalt,True40,GC bias corrected,Lenient,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.002941462,30memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.002940094,0memhg38noalt,False40,GC bias not corrected,Lenient,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.002242747,0memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.002242405,30memhg38,False40,GC bias not corrected,Lenient,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.003342636,30memhg38,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.002242633,0memhg38noalt,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.002941006,30memhg38,True40,GC bias corrected,Lenient,Trimmed,hg38
+LP0030_05_L004,healthy_control,0.00294169,0memhg38,FalseDI26830XA,GC bias not corrected,Strict,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.002643466,30memhg38noalt,FalseDI26830XA,GC bias not corrected,Strict,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.002242519,0memhg38,True40,GC bias corrected,Lenient,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.002940094,30memhg38noalt,False40,GC bias not corrected,Lenient,Trimmed,hg38noalt
+LP0030_05_L004,healthy_control,0.003639492,0memhg38,TrueDI26830XA,GC bias corrected,Strict,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.004036682,0memhg38,False40,GC bias not corrected,Lenient,Untrimmed,hg38
+LP0030_05_L004,healthy_control,0.002644149,0memhg38noalt,True40,GC bias corrected,Lenient,Untrimmed,hg38noalt
