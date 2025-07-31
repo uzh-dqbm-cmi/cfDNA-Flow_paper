@@ -1,5 +1,0 @@
-reads,phenotype,avg,med,stdev,read_length,se,reads_verbose,read_length_verbose
-discarded,healthy_control,178.38370445337375,179.9511886025123,19.517119737636953,all_reads,3.0859275868580336,Discarded reads,All reads
-discarded,lung_cancer,169.74046637409532,173.90768501635804,23.383313158747644,all_reads,3.697226441131448,Discarded reads,All reads
-kept,healthy_control,186.77213653427935,184.90736567463497,8.832892071183023,all_reads,1.396602863569024,Kept reads,All reads
-kept,lung_cancer,177.4644909355991,177.2343374371547,11.798610271348627,all_reads,1.8655240841059473,Kept reads,All reads
