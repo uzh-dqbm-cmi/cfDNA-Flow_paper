@@ -1,0 +1,776 @@
+---
+title: "Figures"
+output: html_notebook
+---
+# Load packages
+```{r}
+library(ggplot2)
+library(ggfortify)
+library(ggbiplot)
+library(readr)
+library(reshape2)
+library(corrplot)
+library(RColorBrewer)
+library(tidyverse)
+library(ggh4x)
+library(pROC)
+library(readr)
+library(dplyr)
+library(rstatix)
+library(ggpubr)
+```
+
+```{r}
+wdir <- ""
+```
+
+```{r}
+file_features <- list(
+  "coverage.csv" = "correlation_to_healthy",
+  "fragment_lengths.csv" = "globlen_mean",
+  "freia.csv" = "FrEIA_score",
+  "ichorCNA.csv" = "Tumor.Fraction",
+  "liq_hemato.csv" = "Dip depth: z-score vs controls in same region set",
+  "liq_saec.csv" = "Dip depth: z-score vs controls in same region set",
+  "tMAD.csv" = "tmad_vs_control"
+)
+
+read_and_label <- function(file, feature_col) {
+  file_path <- file.path(wdir, file)
+  df <- read_csv(file_path, show_col_types = FALSE) %>%
+    select(sampleID, phenotype, ref_genome, settings, value = all_of(feature_col)) %>%
+    mutate(feature = gsub(".csv$", "", file))  
+  return(df)
+}
+
+combined_data <- bind_rows(lapply(names(file_features), function(f) read_and_label(f, file_features[[f]])))
+
+#write_csv(combined_data, file.path(wdir, "long_features.csv"))
+```
+
+```{r}
+#remove moderate filtering
+combined_data <- combined_data %>%
+  filter(!grepl("DI1230XA", settings))
+#remove GC-bias correction
+combined_data <- combined_data %>%
+  filter(!grepl("True", settings))
+#remove norm-cov
+combined_data <- combined_data[combined_data$feature!="coverage",]
+combined_data$feature[combined_data$feature=="freia"] <- "FrEIA"
+```
+
+```{r}
+features <- c("fragment_lengths", "ichorCNA", "tMAD", "FrEIA", 
+              "liq_hemato", "liq_saec")
+fcol <- c("#1B9E77", "#66A61E", "#E6AB02", "#7570B3", "#FD1111", "#A1298A")
+```
+# Figure 1 is a concept art - so there's no code for it
+
+# Figure 2A: Dispersion plot
+```{r}
+#combined_data <- read_csv(paste0(wdir, "long_all_features.csv"))
+output_fig2a <- "figures/Fig2A.pdf"
+
+merged_data_summary <- combined_data %>%
+  group_by(sampleID, feature) %>%
+  summarise(
+    avg = mean(value),
+    variance = var(value),
+    stdev = sd(value),
+    min = min(value),
+    max = max(value),
+    median = median(value),
+    q25 = quantile(value, 0.25),
+    q75 = quantile(value, 0.75),
+    q5 = quantile(value, 0.05),
+    q95 = quantile(value, 0.95),
+  )
+
+merged_data_summary$feature[merged_data_summary$feature == "freia"] <- "FrEIA"
+merged_data_summary$feature[merged_data_summary$feature == "fragment_lengths"] <- "Fragment Length"
+merged_data_summary$feature[merged_data_summary$feature == "tMAD"] <- "CNA: tMAD"
+merged_data_summary$feature[merged_data_summary$feature == "ichorCNA"] <- "CNA: ichorCNA"
+merged_data_summary$feature[merged_data_summary$feature == "freia"] <- "FrEIA score"
+merged_data_summary$feature[merged_data_summary$feature == "liq_hemato"] <- "LIQ: hemato"
+merged_data_summary$feature[merged_data_summary$feature == "liq_saec"] <- "LIQ: lung"
+
+pdf(file =  output_fig2a,
+    width = 7,
+    height = 7)
+ggplot(merged_data_summary, 
+       aes(x=feature, y=variance/abs(avg), color = feature)) +
+  geom_boxplot(size=1.4) +
+  theme_classic() +
+  scale_color_manual(values = fcol) +
+  labs(color = "Feature") +
+  theme(text=element_text(size=20), 
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(axis.text.x = element_blank()) +
+  labs(x = "Feature", y = "Dispersion") + ylim(0,0.15)
+dev.off()
+```
+
+# Figure 2B: PCA plot
+```{r}
+output_fig2b <- "figures/Fig2B.pdf"
+
+### Set metadata
+combined_data$trimming <- ifelse(sub("^([03]{1,2}).*", "\\1",
+                                     combined_data$ref_genome) == 0, FALSE, TRUE
+                                 )
+combined_data$genome <- sub(".*mem", "", combined_data$ref_genome)
+#combined_data$gcbias <- sub("^([T|F]).*", "\\1",  combined_data$settings)
+#combined_data$gcbias <- ifelse(combined_data$gcbias == "T", TRUE, FALSE)
+combined_data$filtering <- ifelse(grepl("40", combined_data$settings), FALSE, TRUE)
+
+#combined_data$both <- paste(combined_data$filtering, combined_data$gcbias, sep="_")
+
+#wide_data <- combined_data %>%
+#  pivot_wider(names_from = feature, values_from = value)
+
+pca_data <- combined_data %>%
+  mutate(sample_feature = paste(sampleID, feature, sep = "_")) %>% 
+  select(ref_genome, settings, sample_feature, value) %>%
+  pivot_wider(
+    names_from = sample_feature,  # New column names from sampleID_source
+    values_from = value        # Fill values from feature column
+  )
+
+pca_res <- prcomp(na.omit(pca_data[, !(names(pca_data) %in% c("ref_genome",
+                                                              "settings"))]),
+                  scale. = TRUE)
+
+pca_data$trimming <- ifelse(sub("^([03]{1,2}).*", "\\1",
+                                     pca_data$ref_genome) == 0, FALSE, TRUE
+                                 )
+pca_data$genome <- sub(".*mem", "", pca_data$ref_genome)
+#pca_data$gcbias <- sub("^([T|F]).*", "\\1",  pca_data$settings)
+#pca_data$gcbias <- ifelse(pca_data$gcbias == "T", TRUE, FALSE)
+pca_data$filtering <- ifelse(grepl("40", pca_data$settings), FALSE, TRUE)
+
+pca_data$both <- paste(pca_data$filtering, pca_data$trimming, sep="_")
+pca_data <- na.omit(pca_data)
+
+pdf(file = output_fig2b, width = 5, height = 5)
+ggbiplot(pca_res, var.axes = FALSE, labels = "", loadings = TRUE) +
+  geom_point(aes(color = pca_data$genome, shape = pca_data$both),
+             na.rm = TRUE) + 
+  scale_shape_manual(values = c(0, 1, 15, 16)) +
+  scale_color_manual(values = c("#D53E4F", "#FBB4AE", "#03665E", "#66C2A5")) +
+  theme_classic() +
+  theme(text=element_text(size=12))
+dev.off()
+
+#loadings <- as.data.frame(pca_res$rotation[, 1:2])
+#loadings$variable <- rownames(loadings)
+
+#loadings <- loadings %>%
+#  separate(variable, into = c("sampleID", "feature"), sep = "_(?=[^_]+$)")
+
+#loadings <- loadings %>%
+#  mutate(
+#    feature = ifelse(str_detect(sampleID, "_fragment"), "fragment_lengths", feature),
+#    sampleID = str_replace(sampleID, "_fragment", "")
+#  )
+#sample_pheno <- combined_data %>%
+#  distinct(sampleID, phenotype)
+
+#loadings <- loadings %>%
+#  left_join(sample_pheno, by = "sampleID")
+
+#agg_loadings <- loadings %>%
+#  group_by(feature) %>%
+#  summarise(PC1 = mean(PC1), PC2 = mean(PC2), .groups = "drop")
+
+#ggplot(agg_loadings, aes(x = PC1, y = PC2, label = feature)) +
+#  geom_segment(aes(xend = 0, yend = 0), arrow = arrow(length = unit(0.2, "cm"))) +
+#  geom_text_repel() +
+#  theme_classic()
+```
+
+# Figure 2C: Correlation plots
+```{r}
+output_directory <- "figures/fig2C_corr_plots"
+generate_correlation_plots <- function(feat, output_directory, combined_data) {
+  data <- combined_data[combined_data$feature == feat, ]
+  data$preprocessing <- paste(data$ref_genome, data$settings, sep="_")
+
+  data_healthy <- data %>% filter(phenotype == "healthy_control") %>% select(c('sampleID','value','preprocessing'))
+  matrix_healthy <- as.matrix(dcast(data_healthy, sampleID ~ preprocessing, value.var="value"))
+  matrix_healthy <- subset(matrix_healthy, select=-c(sampleID))
+  storage.mode(matrix_healthy) <- "numeric"
+  cor_matrix_healthy <- cor(matrix_healthy, 
+                            method = "pearson")
+
+  data_cancer <- data %>% filter(phenotype == "lung_cancer") %>% select(c('sampleID','value','preprocessing'))
+  matrix_cancer <- as.matrix(dcast(data_cancer, sampleID ~ preprocessing, value.var="value"))
+  matrix_cancer <- subset(matrix_cancer, select=-c(sampleID))
+  storage.mode(matrix_cancer) <- "numeric"
+  cor_matrix_cancer <- cor(matrix_cancer, 
+                           method = "pearson")
+
+  output_file <- paste0(output_directory, feat, ".pdf")
+
+  pdf(file = output_file, width = 10, height = 6) 
+
+  diag(cor_matrix_healthy) <- NA
+  corrplot(
+    cor_matrix_healthy,
+    #title = paste("\n", base_name),
+    is.corr = FALSE,
+    method = "circle",
+    tl.cex = 0.7,
+    tl.col = "black",
+    type = 'lower',
+    col = brewer.pal(n = 9, name = "Greens"),
+    tl.srt = 45,
+    #tl.pos = 'lt',
+    na.label = " ",
+    #cl.pos = 'n',
+    tl.pos = 'n'
+  )
+
+  diag(cor_matrix_cancer) <- NA
+  corrplot(
+    cor_matrix_cancer,
+    is.corr = FALSE,
+    method = "circle",
+    tl.cex = 0.7,
+    tl.col = "black",
+    type = 'upper',
+    col = brewer.pal(n = 9, name = "Purples"),
+    add = TRUE,
+    tl.srt = 0,
+    tl.pos = 'l',
+    na.label = " ",
+    #cl.pos = 'n',
+    #tl.pos = 'n'
+  )
+
+  dev.off() 
+}
+
+for (feat in features) {
+  generate_correlation_plots(feat, output_directory, combined_data)
+}
+```
+
+
+# Figure 3A: -log10(p)-values 
+```{r}
+stat.test <- map_dfr(features, function(feat) {
+  combined_data %>%
+    filter(feature == feat) %>%
+    group_by(ref_genome, settings) %>%
+    t_test(value ~ phenotype) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance() %>%
+    mutate(statistic = abs(statistic), feature = feat)
+})
+
+stat.test <- stat.test %>%
+  mutate(Filtering = ifelse(grepl("DI26830XA", settings), "Strict", "Lenient"))
+
+#stat.test$trimming <- stat.test$ref_genome
+#stat.test$trimming[stat.test$trimming == "0memhg38"] <- "Untrimmed"
+#stat.test$trimming[stat.test$trimming == "0memhg38noalt"] <- "Untrimmed"
+#stat.test$trimming[stat.test$trimming == "30memhg38"] <- "Trimmed"
+#stat.test$trimming[stat.test$trimming == "30memhg38noalt"] <- "Trimmed"
+#stat.test$trimming[stat.test$trimming == "0memhg19decoy"] <- "Untrimmed"
+#stat.test$trimming[stat.test$trimming == "0memhg19"] <- "Untrimmed"
+#stat.test$trimming[stat.test$trimming == "30memhg19decoy"] <- "Trimmed"
+#stat.test$trimming[stat.test$trimming == "30memhg19"] <- "Trimmed"
+
+stat.test$trimming <- stat.test$ref_genome
+stat.test$trimming[stat.test$trimming == "0memhg38"] <- "U"
+stat.test$trimming[stat.test$trimming == "0memhg38noalt"] <- "U"
+stat.test$trimming[stat.test$trimming == "30memhg38"] <- "T"
+stat.test$trimming[stat.test$trimming == "30memhg38noalt"] <- "T"
+stat.test$trimming[stat.test$trimming == "0memhg19decoy"] <- "U"
+stat.test$trimming[stat.test$trimming == "0memhg19"] <- "U"
+stat.test$trimming[stat.test$trimming == "30memhg19decoy"] <- "T"
+stat.test$trimming[stat.test$trimming == "30memhg19"] <- "T"
+
+stat.test$genome <- stat.test$ref_genome
+stat.test$genome[stat.test$genome == "0memhg38"] <- "hg38"
+stat.test$genome[stat.test$genome == "0memhg38noalt"] <- "hg38noalt"
+stat.test$genome[stat.test$genome == "30memhg38"] <- "hg38"
+stat.test$genome[stat.test$genome == "30memhg38noalt"] <- "hg38noalt"
+stat.test$genome[stat.test$genome == "0memhg19decoy"] <- "hg19decoy"
+stat.test$genome[stat.test$genome == "0memhg19"] <- "hg19"
+stat.test$genome[stat.test$genome == "30memhg19decoy"] <- "hg19decoy"
+stat.test$genome[stat.test$genome == "30memhg19"] <- "hg19"
+stat.test$feature[stat.test$feature == "liq_saec"] <- "LIQ lung"
+stat.test$feature[stat.test$feature == "liq_hemato"] <- "LIQ hemato"
+
+df_summary <- stat.test %>%
+  group_by(genome, trimming, Filtering, feature) %>%
+  summarise(
+    value = mean(p.adj)
+  )
+
+test <- df_summary
+test$row_number <- rep(1:8, each = 12)
+
+test$feature[test$feature == "freia"] <- "FrEIA"
+test$feature[test$feature == "tMAD"] <- "CNA: tMAD"
+test$feature[test$feature == "ichorCNA" ] <- "CNA: ichorCNA"
+test$feature[test$feature == "LIQ hemato" ] <- "LIQ: hemato"
+test$feature[test$feature == "LIQ lung" ] <- "LIQ: lung"
+test$feature[test$feature == "fragment_lengths" ] <- "Fragment lengths"
+
+### lineplot
+pdf(file =  "figures/Fig3A.pdf",
+    width = 12.5,
+    height = 5)
+ggplot(test, aes(x = row_number, y = -log10(value), color = feature, group = feature, shape = Filtering)) +
+  geom_point(size = 5) +
+  scale_shape_manual(values = c(1, 16)) +
+  geom_line(test[test$Filtering == 'Lenient',], mapping = aes(x = row_number, y = -log10(value),  group = feature, color = feature), alpha=0.5, size = 0.1) +
+  geom_line(test[test$Filtering == 'Strict',], mapping = aes(x = row_number, y = -log10(value),  group = feature, color = feature), alpha=1, size = 0.1) +
+  labs(x = "Preprocessing setting", y = "-log10(p)") +
+  theme_minimal() +
+  scale_fill_manual(values = fcol) +
+  scale_color_manual(values = fcol) +
+  labs(fill = "Feature", col = "Feature") +
+  theme(text=element_text(size=20), axis.text.x=element_blank()) 
+dev.off()
+
+
+#### legend
+pdf(file =  "figures/Fig3A_legend.pdf",
+    width = 12.5,
+    height = 5)
+ggplot(test, aes(x = row_number, y = -log10(value), color = feature, group = feature, shape = Filtering)) +
+  geom_point(size = 5) +
+  scale_color_manual(values = fcol) +
+  scale_fill_manual(values = fcol) +
+  labs(fill = "Feature", col = "Feature") +
+  theme(text=element_text(size=20)) +
+  theme(axis.text.x = element_blank()) +
+       facet_nested(row_number ~  genome + trimming) +    
+       theme(panel.spacing=unit(0.1,"lines"),
+       strip.background=element_rect(color="grey30", fill="grey90"),
+       panel.border=element_rect(color="grey90"),
+       axis.ticks.x=element_blank()) 
+dev.off()
+```
+
+# Figure 3B: AUC boxplot
+```{r}
+rr_list <- list()
+auc_list <- list()
+
+
+for (feat in features) {
+  print(feat)
+  data <- combined_data[combined_data$feature == feat, ]
+  data$preprocessing <- paste(data$ref_genome, data$settings, sep="_")
+  grouped_data <- split(data, data$preprocessing)
+
+  for (group_name in names(grouped_data)) {
+    group_data <- grouped_data[[group_name]]
+    rr <- roc(group_data$phenotype, group_data$value, ci=TRUE, plot=FALSE)
+    rr_list[[paste(feat, "-", group_name)]] <- rr
+    auc_list[[paste(feat, "-", group_name)]] <- auc(rr)
+  }
+}
+
+auc_df <- data.frame(
+  Group = names(auc_list),
+  AUC = unlist(auc_list)
+)
+
+auc_df$feature <- sapply(auc_df$Group, function(x) strsplit(x, " - ")[[1]][1])
+auc_df$preprocessing <- sapply(auc_df$Group, function(x) strsplit(x, " - ")[[1]][2])
+auc_df$ref_genome <- sapply(auc_df$preprocessing, function(x) strsplit(x, "_")[[1]][1])
+auc_df$settings <- sapply(auc_df$preprocessing, function(x) strsplit(x, "_")[[1]][2])
+auc_df <- auc_df[, -which(names(auc_df) == "Group")]
+
+
+auc_df$genome <- sub(".*mem", "", auc_df$ref_genome)
+auc_df$trimming <- ifelse(grepl("^30", auc_df$ref_genome), "Trimmed", "Untrimmed")
+auc_df$filtering <- ifelse(grepl("40", auc_df$settings), "Lenient", "Strict")
+
+auc_df$feature[auc_df$feature == "freia"] <- "FrEIA"
+auc_df$feature[auc_df$feature == "tMAD"] <- "CNA: tMAD"
+auc_df$feature[auc_df$feature == "ichorCNA" ] <- "CNA: ichorCNA"
+auc_df$feature[auc_df$feature == "liq_hemato" ] <- "LIQ: hemato"
+auc_df$feature[auc_df$feature == "liq_saec" ] <- "LIQ: lung"
+auc_df$feature[auc_df$feature == "fragment_lengths" ] <- "Fragment lengths"
+
+auc_df_plot <- auc_df
+auc_df_plot <- arrange(auc_df,trimming,genome)
+
+
+write_csv(auc_df_plot, "data/auc_plot.csv")
+auc_df_plot <- read_csv("data/auc_plot.csv")
+pdf(file = "figures/Fig3B.pdf",
+    width = 5,
+    height = 5)
+ggplot(auc_df_plot, aes(x = feature, y = AUC, 
+                        fill = feature, group = feature)) +
+  geom_boxplot() +
+  scale_fill_manual(values = fcol) +
+  theme_classic() +
+  theme(axis.text.x=element_blank())
+dev.off()
+```
+
+#Figure 4
+## prepare data
+```{r}
+sample_pheno <- combined_data %>% distinct(sampleID, phenotype)
+
+filered01 <- list(
+  "red01/fragment_lengths.csv" = "globlen_mean",
+  "red01/FrEIA.csv" = "FrEIA_score",
+  "red01/ichorCNA.csv" = "Tumor.Fraction",
+  "red01/liq_hemato.csv" = "dip_depth",
+  "red01/liq_saec.csv" = "dip_depth",
+  "red01/tMAD.csv" = "tMAD_vs_control"
+)
+read_and_label_tsv <- function(file, feature_col) {
+  file_path <- file.path(wdir, file)
+  df <- read_table(file_path, show_col_types = F) %>%
+    select(sampleID, ref_genome, settings, value = all_of(feature_col)) %>%
+    mutate(feature = gsub(".csv$", "", file))  
+  return(df)
+}
+
+red01_data <- bind_rows(lapply(names(filered01), 
+                        function(f) read_and_label_tsv(f, filered01[[f]])))
+red01_data$feature <- sub("^red01/", "", red01_data$feature)
+red01_data$sampling <- "0.1x"
+red01_data <- red01_data %>% filter(!grepl("True", settings))
+red01_data <- red01_data %>% left_join(sample_pheno, by = "sampleID")
+
+filered1 <- list(
+  "red1/fragment_lengths.csv" = "globlen_mean",
+  "red1/FrEIA.csv" = "FrEIA_score",
+  "red1/ichorCNA.csv" = "Tumor.Fraction",
+  "red1/liq_hemato.csv" = "dip_depth",
+  "red1/liq_saec.csv" = "dip_depth",
+  "red1/tMAD.csv" = "tMAD_vs_control"
+)
+red1_data <- bind_rows(lapply(names(filered1), 
+                        function(f) read_and_label_tsv(f, filered1[[f]])))
+red1_data$feature <- sub("^red1/", "", red1_data$feature)
+red1_data$sampling <- "1x"
+red1_data <- red1_data %>% filter(!grepl("True", settings))
+red1_data <- red1_data %>% left_join(sample_pheno, by = "sampleID")
+
+fileszsel <- list(
+  "szsel/fragment_lengths.csv" = "globlen_mean",
+  "szsel/FrEIA.csv" = "FrEIA_score",
+  "szsel/ichorCNA.csv" = "Tumor.Fraction",
+  "szsel/tMAD.csv" = "tMAD_vs_control"
+)
+szsel_data <- bind_rows(lapply(names(fileszsel), 
+                        function(f) read_and_label_tsv(f, fileszsel[[f]])))
+szsel_data$feature <- sub("^szsel/", "", szsel_data$feature)
+szsel_data$sampling <- "szsel"
+szsel_data <- szsel_data %>% filter(!grepl("True", settings))
+szsel_data <- szsel_data %>% left_join(sample_pheno, by = "sampleID")
+
+combined_data$sampling <- "full"
+
+all_data <- bind_rows(red1_data, red01_data, combined_data, szsel_data)
+```
+
+## compute AUC
+```{r}
+compute_auc_df <- function(data) {
+  features <- unique(data$feature)
+  rr_list <- list()
+  auc_list <- list()
+
+  for (feat in features) {
+    message("Processing feature: ", feat)
+    data_sub <- data[data$feature == feat, ]
+    data_sub$preprocessing <- paste(data_sub$ref_genome,
+                                    data_sub$settings,
+                                    data_sub$sampling, sep = "_")
+    grouped_data <- split(data_sub, data_sub$preprocessing)
+
+    for (group_name in names(grouped_data)) {
+      group_data <- grouped_data[[group_name]]
+      if (length(unique(group_data$phenotype)) == 2) {  
+        rr <- roc(group_data$phenotype, group_data$value, ci = TRUE, plot = FALSE, quiet = T)
+        rr_list[[paste(feat, "-", group_name)]] <- rr
+        auc_list[[paste(feat, "-", group_name)]] <- auc(rr)
+      }
+    }
+  }
+
+  auc_df <- data.frame(
+    Group = names(auc_list),
+    AUC = unlist(auc_list)
+  )
+
+
+  auc_df$feature <- sapply(auc_df$Group, function(x) strsplit(x, " - ")[[1]][1])
+  auc_df$preprocessing <- sapply(auc_df$Group, function(x) strsplit(x, " - ")[[1]][2])
+  auc_df$ref_genome <- sapply(auc_df$preprocessing, function(x) strsplit(x, "_")[[1]][1])
+  auc_df$settings <- sapply(auc_df$preprocessing, function(x) strsplit(x, "_")[[1]][2])
+  auc_df$sampling <- sapply(auc_df$preprocessing, function(x) strsplit(x, "_")[[1]][3])
+  auc_df <- auc_df[, !(names(auc_df) %in% "Group")]
+
+
+  auc_df$genome <- sub(".*mem", "", auc_df$ref_genome)
+  auc_df$trimming <- ifelse(grepl("^30", auc_df$ref_genome), "Trimmed", "Untrimmed")
+  auc_df$filtering <- ifelse(grepl("40", auc_df$settings), "Lenient", "Strict")
+
+
+  auc_df$feature[auc_df$feature == "freia"] <- "FrEIA"
+  auc_df$feature[auc_df$feature == "tMAD"] <- "CNA: tMAD"
+  auc_df$feature[auc_df$feature == "ichorCNA"] <- "CNA: ichorCNA"
+  auc_df$feature[auc_df$feature == "liq_hemato"] <- "LIQ: hemato"
+  auc_df$feature[auc_df$feature == "liq_saec"] <- "LIQ: lung"
+  auc_df$feature[auc_df$feature == "fragment_lengths"] <- "Fragment lengths"
+  auc_df$feature[auc_df$feature == "coverage"] <- "Norm coverage"
+
+  return(auc_df)
+}
+
+auc_red1 <- compute_auc_df(red1_data)
+auc_red01 <- compute_auc_df(red01_data)
+auc_combined <- compute_auc_df(combined_data)
+auc_szsel <- compute_auc_df(szsel_data)
+
+all_auc_df <- bind_rows(auc_red1, auc_red01, auc_combined, auc_szsel)
+```
+
+## plot Fig4
+```{r}
+auc_df_plot <- all_auc_df
+auc_df_plot <- arrange(all_auc_df, sampling, trimming, genome)
+
+pdf(file = "figures/Fig4.pdf",
+    width = 6,
+    height = 6)
+ggplot(auc_df_plot, aes(x = sampling, y = AUC, 
+                        fill = sampling, group = sampling)) +
+  geom_boxplot() +
+#  scale_fill_manual(values = fcol) +
+  facet_wrap(.~feature, ncol = 2) +
+  theme_classic() 
+dev.off()
+```
+
+# SFigure 1 - discarded reads
+```{r}
+counts_summary <- read_csv(file.path(wdir, "counts_summary.csv"))
+counts_summary$step_verbose <- factor(counts_summary$step_verbose, 
+                                      levels = c("Fastq",
+                                                 "Trimming", "Alignment",
+                                                 "Filtering", "Final"))
+
+pdf(file = "figures/SFig1A.pdf",
+    width = 10,
+    height = 5)
+ggplot(counts_summary, aes(step_verbose, percent_remaining, group=ref_genome)) +   
+  geom_line(aes(color=trimming), position = position_dodge(width = 0.15), 
+            alpha=0.8, 
+            size=0.5) +
+  geom_point(aes(color=trimming), size = 2,  alpha = 0.8) + 
+  scale_color_brewer(palette="Dark2") +
+  theme_bw() +
+  ylab("Read percentage remaining (%)") + 
+  xlab("Bioinformatic preprocessing steps") +
+  ggtitle("") +
+  facet_nested(gc_bias ~ genome + settings_verbose) + 
+  theme(panel.spacing=unit(0.1,"lines"), strip.background=element_rect(color="grey30", fill="grey90"),
+        panel.border=element_rect(color="grey90"),
+        axis.ticks.x=element_blank()) +
+  guides(color=guide_legend(title=NULL)) +
+  theme(legend.position="top") +
+  theme(axis.text.x = element_text(angle = 45))
+dev.off()
+
+average_fragment_length <- read_csv("data/average_fragment_length.csv")
+pdf(file = "figures/SFig1B.pdf",
+    width = 6,
+    height = 5)
+ggplot(average_fragment_length, aes(x = reads_verbose, y = avg, fill = phenotype)) +
+  geom_bar(stat = "identity", position = "dodge", color = "black") +
+  geom_errorbar(aes(ymin = avg - se, ymax = avg + se), width = 0.2, position = position_dodge(0.9)) +
+  labs(x = "", y = "Average fragment length") +
+  scale_fill_manual(values = c("healthy_control" = "#FFFF99", "lung_cancer" = "#666666")) +
+  theme_classic() +
+  theme(legend.position = "top") +
+  guides(fill=guide_legend(title=NULL)) +
+  scale_fill_brewer(palette = "Accent", labels = c('Healthy', 'Cancer')) 
+dev.off()
+
+df_summary <- read_csv("data/discarded_reads.csv")
+pdf(file = "figures/SFig1C.pdf",
+    width = 9,
+    height = 5)
+ggplot(df_summary, aes(x = reads_verbose, y = avg, fill = phenotype)) +
+  geom_bar(stat = "identity", position = "dodge", color = "black") +
+  geom_errorbar(aes(ymin = avg - se, ymax = avg + se), width = 0.2, position = position_dodge(0.9)) +
+  labs(x = "", y = "Average tumor fraction") +
+  #scale_fill_manual(values = c("healthy_control" = "#FFFF99", "lung_cancer" = "#666666")) +
+  theme_classic() +
+  theme(legend.position = "top") +
+  facet_nested(~size_verbose + settings_verbose) +
+  guides(fill=guide_legend(title=NULL)) +
+  theme(text=element_text(size=18)) +
+  scale_fill_brewer(palette = "Accent", labels = c('Healthy', 'Cancer')) 
+dev.off()
+```
+
+# SFigure 2 - effects of trimming
+```{r}
+###### Supplementary Figure 2 #######
+
+stat.test$feature[stat.test$feature == "freia"] <- "FrEIA"
+stat.test$feature[stat.test$feature == "tMAD"] <- "CNA: tMAD"
+stat.test$feature[stat.test$feature == "ichorCNA" ] <- "CNA: ichorCNA"
+stat.test$feature[stat.test$feature == "LIQ hemato" ] <- "LIQ: hemato"
+stat.test$feature[stat.test$feature == "LIQ lung" ] <- "LIQ: lung"
+stat.test$feature[stat.test$feature == "fragment_lengths" ] <- "Fragment lengths"
+
+pdf(file =  "figures/SFig2.pdf",
+    width = 12,
+    height = 8)
+ggplot(stat.test, aes(x = trimming, y = statistic, fill = feature,
+                      alpha = trimming)) +
+  geom_violin() +
+  scale_alpha_discrete(range = c(0.2, 0.8)) +
+  geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = fcol) +
+  facet_wrap(.~feature, scales = "free",) +
+  theme_classic() +
+    geom_text(
+    aes(label = paste0(ref_genome, settings))
+  )
+dev.off()
+
+features <- unique(stat.test$feature)
+testoftest_trim <- map_dfr(features, function(feat) {
+  stat.test %>%
+    filter(feature == feat) %>%
+    t_test(statistic ~ trimming) %>%
+    mutate(statistic = abs(statistic), feature = feat)
+})
+testoftest_trim <- testoftest_trim %>%
+  mutate(p.adj = p.adjust(p, method = "bonferroni")) %>%
+  add_significance(p.col = "p.adj")
+
+```
+
+# SFigure 3 - effects of genome build
+```{r}
+###### Supplementary Figure 2 #######
+
+pdf(file =  "figures/SFig3.pdf",
+    width = 12,
+    height = 8)
+ggplot(stat.test, aes(x = genome, y = statistic, fill = feature,
+                      alpha = genome)) +
+  geom_violin() +
+  scale_alpha_discrete(range = c(0.1, 0.9)) +
+  geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = fcol) +
+  facet_wrap(.~feature, scales = "free",) +
+  theme_classic()+
+    geom_text(
+    aes(label = paste0(trimming, Filtering))
+  )
+dev.off()
+
+testoftest_genome <- map_dfr(features, function(feat) {
+  stat.test %>%
+    filter(feature == feat) %>%
+    t_test(statistic ~ genome) %>%
+    mutate(statistic = abs(statistic), feature = feat)
+})
+
+testoftest_genome <- testoftest_genome %>%
+  mutate(p.adj = p.adjust(p, method = "bonferroni")) %>%
+  add_significance(p.col = "p.adj")
+```
+
+
+# SFigure 4 - effects of filtering
+```{r}
+###### Supplementary Figure 2 #######
+
+pdf(file =  "figures/SFig4.pdf",
+    width = 12,
+    height = 8)
+ggplot(stat.test, aes(x = Filtering, y = statistic, fill = feature,
+                      alpha = Filtering)) +
+  geom_violin() +
+  scale_alpha_discrete(range = c(0.2, 0.8)) +
+  geom_point(position = position_jitter(width = 0.2), size = 1, shape = 21) +
+  scale_fill_manual(values = fcol) +
+  facet_wrap(.~feature, scales = "free",) +
+  theme_classic()
+dev.off()
+
+testoftest_filtering <- map_dfr(features, function(feat) {
+  stat.test %>%
+    filter(feature == feat) %>%
+    t_test(statistic ~ Filtering) %>%
+    mutate(statistic = abs(statistic), feature = feat)
+})
+
+testoftest_filtering <- testoftest_filtering %>%
+  mutate(p.adj = p.adjust(p, method = "bonferroni")) %>%
+  add_significance(p.col = "p.adj")
+```
+
+# SFigure 5 - ichor with downsampling and szsel (this is only the code for SFig 5A. Panel B is output by ichorCNA)
+```{r}
+allichor <- all_data[all_data$feature=="ichorCNA",]
+
+allichor$trimming <- ifelse(sub("^([03]{1,2}).*", "\\1",
+                                     allichor$ref_genome) == 0, FALSE, TRUE
+                                 )
+allichor$genome <- sub(".*mem", "", allichor$ref_genome)
+
+allichor$filtering <- ifelse(grepl("40", allichor$settings), FALSE, TRUE)
+
+
+pdf(file =  "figures/SFig5.pdf",
+    width = 8,
+    height = 5)
+
+ggplot(allichor, aes(x = sampling, y = value)) +
+  geom_boxplot(aes(fill=phenotype)) +
+  facet_nested(genome ~ trimming + filtering) + 
+  scale_fill_manual(values = c("darkgreen", "purple")) +
+  theme_classic()
+dev.off()
+
+```
+# SFigure 6 is assembled from LIQUORICE outputs
+
+# SFigure 7 - Runtime
+```{r}
+
+runtimes_cumsum <- read_csv(file.path(wdir, "runtimes.csv"))
+runtimes_cumsum <- runtimes_cumsum[runtimes_cumsum$gc_bias!="GC bias corrected",]
+runtimes_cumsum$rule <- factor(runtimes_cumsum$rule, levels = c("trim", "bwaMem", "filterBams", "sortByCoord"))
+runtimes_cumsum <- subset(runtimes_cumsum, select=-gc_bias)
+
+##### Supplementary Figure 6 ######
+
+pdf(file =  "figures/SFig5.pdf",
+    width = 9,
+    height = 4)
+ggplot(runtimes_cumsum, aes(x=rule, y=csum/3600, colour=coloring, group = groups)) + 
+  geom_point(size=2) + 
+  geom_line(size=1, alpha=0.6) + 
+  theme_classic() + 
+  facet_grid(~genome+trimming) +
+  ylab("Time (h)") +
+  scale_x_discrete(guide = guide_axis(angle = 45)) +
+  ylim(0, 15)
+dev.off()
+
+```
