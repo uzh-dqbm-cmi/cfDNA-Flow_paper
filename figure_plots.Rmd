@@ -21,18 +21,18 @@ library(ggpubr)
 ```
 
 ```{r}
-wdir <- ""
+wdir <- "data"
 ```
 
 ```{r}
 file_features <- list(
-  "coverage.csv" = "correlation_to_healthy",
-  "fragment_lengths.csv" = "globlen_mean",
-  "freia.csv" = "FrEIA_score",
-  "ichorCNA.csv" = "Tumor.Fraction",
-  "liq_hemato.csv" = "Dip depth: z-score vs controls in same region set",
-  "liq_saec.csv" = "Dip depth: z-score vs controls in same region set",
-  "tMAD.csv" = "tmad_vs_control"
+  "Fig2-3_coverage.csv" = "correlation_to_healthy",
+  "Fig2-3_fragment_lengths.csv" = "globlen_mean",
+  "Fig2-3_freia.csv" = "FrEIA_score",
+  "Fig2-3_ichorCNA.csv" = "Tumor.Fraction",
+  "Fig2-3_liq_hemato.csv" = "Dip depth: z-score vs controls in same region set",
+  "Fig2-3_liq_saec.csv" = "Dip depth: z-score vs controls in same region set",
+  "Fig2-3_tMAD.csv" = "tmad_vs_control"
 )
 
 read_and_label <- function(file, feature_col) {
@@ -424,12 +424,12 @@ dev.off()
 sample_pheno <- combined_data %>% distinct(sampleID, phenotype)
 
 filered01 <- list(
-  "red01/fragment_lengths.csv" = "globlen_mean",
-  "red01/FrEIA.csv" = "FrEIA_score",
-  "red01/ichorCNA.csv" = "Tumor.Fraction",
-  "red01/liq_hemato.csv" = "dip_depth",
-  "red01/liq_saec.csv" = "dip_depth",
-  "red01/tMAD.csv" = "tMAD_vs_control"
+  "Fig4_red01/fragment_lengths.csv" = "globlen_mean",
+  "Fig4_red01/FrEIA.csv" = "FrEIA_score",
+  "Fig4_red01/ichorCNA.csv" = "Tumor.Fraction",
+  "Fig4_red01/liq_hemato.csv" = "dip_depth",
+  "Fig4_red01/liq_saec.csv" = "dip_depth",
+  "Fig4_red01/tMAD.csv" = "tMAD_vs_control"
 )
 read_and_label_tsv <- function(file, feature_col) {
   file_path <- file.path(wdir, file)
@@ -447,12 +447,12 @@ red01_data <- red01_data %>% filter(!grepl("True", settings))
 red01_data <- red01_data %>% left_join(sample_pheno, by = "sampleID")
 
 filered1 <- list(
-  "red1/fragment_lengths.csv" = "globlen_mean",
-  "red1/FrEIA.csv" = "FrEIA_score",
-  "red1/ichorCNA.csv" = "Tumor.Fraction",
-  "red1/liq_hemato.csv" = "dip_depth",
-  "red1/liq_saec.csv" = "dip_depth",
-  "red1/tMAD.csv" = "tMAD_vs_control"
+  "Fig4_red1/fragment_lengths.csv" = "globlen_mean",
+  "Fig4_red1/FrEIA.csv" = "FrEIA_score",
+  "Fig4_red1/ichorCNA.csv" = "Tumor.Fraction",
+  "Fig4_red1/liq_hemato.csv" = "dip_depth",
+  "Fig4_red1/liq_saec.csv" = "dip_depth",
+  "Fig4_red1/tMAD.csv" = "tMAD_vs_control"
 )
 red1_data <- bind_rows(lapply(names(filered1), 
                         function(f) read_and_label_tsv(f, filered1[[f]])))
@@ -462,10 +462,10 @@ red1_data <- red1_data %>% filter(!grepl("True", settings))
 red1_data <- red1_data %>% left_join(sample_pheno, by = "sampleID")
 
 fileszsel <- list(
-  "szsel/fragment_lengths.csv" = "globlen_mean",
-  "szsel/FrEIA.csv" = "FrEIA_score",
-  "szsel/ichorCNA.csv" = "Tumor.Fraction",
-  "szsel/tMAD.csv" = "tMAD_vs_control"
+  "Fig4_szsel/fragment_lengths.csv" = "globlen_mean",
+  "Fig4_szsel/FrEIA.csv" = "FrEIA_score",
+  "Fig4_szsel/ichorCNA.csv" = "Tumor.Fraction",
+  "Fig4_szsel/tMAD.csv" = "tMAD_vs_control"
 )
 szsel_data <- bind_rows(lapply(names(fileszsel), 
                         function(f) read_and_label_tsv(f, fileszsel[[f]])))
@@ -561,7 +561,7 @@ dev.off()
 
 # SFigure 1 - discarded reads
 ```{r}
-counts_summary <- read_csv(file.path(wdir, "counts_summary.csv"))
+counts_summary <- read_csv(file.path(wdir, "SFig1_counts_summary.csv"))
 counts_summary$step_verbose <- factor(counts_summary$step_verbose, 
                                       levels = c("Fastq",
                                                  "Trimming", "Alignment",
@@ -589,7 +589,7 @@ ggplot(counts_summary, aes(step_verbose, percent_remaining, group=ref_genome)) +
   theme(axis.text.x = element_text(angle = 45))
 dev.off()
 
-average_fragment_length <- read_csv("data/average_fragment_length.csv")
+average_fragment_length <- read_csv("data/SFig1_average_fragment_length.csv")
 pdf(file = "figures/SFig1B.pdf",
     width = 6,
     height = 5)
@@ -604,7 +604,7 @@ ggplot(average_fragment_length, aes(x = reads_verbose, y = avg, fill = phenotype
   scale_fill_brewer(palette = "Accent", labels = c('Healthy', 'Cancer')) 
 dev.off()
 
-df_summary <- read_csv("data/discarded_reads.csv")
+df_summary <- read_csv("data/SFig1_discarded_reads.csv")
 pdf(file = "figures/SFig1C.pdf",
     width = 9,
     height = 5)
@@ -753,12 +753,12 @@ dev.off()
 # SFigure 7 - Runtime
 ```{r}
 
-runtimes_cumsum <- read_csv(file.path(wdir, "runtimes.csv"))
+runtimes_cumsum <- read_csv(file.path(wdir, "SFig7_runtimes.csv"))
 runtimes_cumsum <- runtimes_cumsum[runtimes_cumsum$gc_bias!="GC bias corrected",]
 runtimes_cumsum$rule <- factor(runtimes_cumsum$rule, levels = c("trim", "bwaMem", "filterBams", "sortByCoord"))
 runtimes_cumsum <- subset(runtimes_cumsum, select=-gc_bias)
 
-##### Supplementary Figure 6 ######
+##### Supplementary Figure 7 ######
 
 pdf(file =  "figures/SFig7.pdf",
     width = 9,
@@ -774,4 +774,5 @@ ggplot(runtimes_cumsum, aes(x=rule, y=csum/3600, colour=coloring, group = groups
 dev.off()
 
 ```
+
 
