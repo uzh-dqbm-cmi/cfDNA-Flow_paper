@@ -664,7 +664,7 @@ testoftest_trim <- testoftest_trim %>%
 
 # SFigure 3 - effects of genome build
 ```{r}
-###### Supplementary Figure 2 #######
+###### Supplementary Figure 3 #######
 
 pdf(file =  "figures/SFig3.pdf",
     width = 12,
@@ -697,7 +697,7 @@ testoftest_genome <- testoftest_genome %>%
 
 # SFigure 4 - effects of filtering
 ```{r}
-###### Supplementary Figure 2 #######
+###### Supplementary Figure 4 #######
 
 pdf(file =  "figures/SFig4.pdf",
     width = 12,
@@ -760,7 +760,7 @@ runtimes_cumsum <- subset(runtimes_cumsum, select=-gc_bias)
 
 ##### Supplementary Figure 6 ######
 
-pdf(file =  "figures/SFig5.pdf",
+pdf(file =  "figures/SFig7.pdf",
     width = 9,
     height = 4)
 ggplot(runtimes_cumsum, aes(x=rule, y=csum/3600, colour=coloring, group = groups)) + 
@@ -774,3 +774,4 @@ ggplot(runtimes_cumsum, aes(x=rule, y=csum/3600, colour=coloring, group = groups
 dev.off()
 
 ```
+
