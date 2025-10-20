@@ -1,6 +1,27 @@
 # cfDNA-Flow_paper
 
 This repository contains the scripts that were used to plot the figures of the paper.
+The `data` folder contains the underlying data, extracted by cfDNA-Flow.
+
+`csv` files coverage.csv, fragment_lengths.csv, freia.csv, ichorCNA.csv, liq_hemato.csv, liq_saec.csv and tMAD.csv with prefixes `Fig2-3_` were used to generate plots for Fig2 and Fig3. 
+- The coverages are normalized average coverages over 1MB bins.
+- The fragment_lengths.csv file contains not only the average fragment length (glob_mean) used for plotting, but also the STD and median as well as the proportion of fragments of different fragment size intervals.
+- The freia.csv contains outputs of FrEIA, of which the FrEIA score was used for plotting
+- The ichorCNA.csv contains tumor fraction (used for plotting) and ploidy estimates output by ichorCNA
+- The liq_hemato.csv and liq_saec.csv files contain the outputs of LIQUORICE for hematopoietic and Small airway epithelial cell (SAEC) cell types, respectively. The column "Dip depth: z-score vs controls in same region set" was used for plotting
+- The tMAD.csv file contains tMAD scores using a reference (tMAD_vs_control, used for plotting) and without a reference panel.
+
+`csv` files in folders with a prefix `Fig4_` contain the same file types as above, but for datasets where the bamfiles were either
+- size-selected (`szsel`) to only contain fragments 20-150 bp or 
+- downsampled to 1x (`red1`) read coverage
+- downsampled to 0.1 (`red01`) read coverage
+  
+ Supplementary Fig 1 presents the percentage of reads (`SFig1_counts_summary.csv`) kept after each preprocessing step, plots the average fragment lengths for discarded and kept reads (`SFig1_average_fragment_length.csv`) and the tumor fraction estimates of discarded and kept reads (`SFig1_discarded_reads.csv`) in the tumor and healthy cohorts.
+ 
+Supplementary Figures 2-5 are plotted using data also used for generating the main figures. Supplementary Fig. 6 contains plots output by LIQUORICE.
+
+Supplementary Fig 7 shows the cumulative runtime after each step of preprocessing based on `SFig7_runtimes.csv`
+ 
 ```
 > sessionInfo()
 R version 4.4.1 (2024-06-14 ucrt)
